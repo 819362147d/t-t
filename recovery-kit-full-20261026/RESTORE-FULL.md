@@ -58,6 +58,9 @@ GitHub 副本里 4 个二进制模型文件以 base64 文本（`.b64`）存放�
 cd $GOAL/hidden_files
 base64 -d lr_10min.pkl.b64 > lr_10min.pkl
 base64 -d lr_10min_retrain202610.pkl.b64 > lr_10min_retrain202610.pkl
+# 两个 .npz 各约 9MB，单次上传超限故切成 5 个 2MB 分片，先拼回再解码：
+cat mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-* > mf_data_1m/FEAT3R_BTCUSDT.npz.b64
+cat mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-* > mf_data_1m/FEAT3R_ETHUSDT.npz.b64
 base64 -d mf_data_1m/FEAT3R_BTCUSDT.npz.b64 > mf_data_1m/FEAT3R_BTCUSDT.npz
 base64 -d mf_data_1m/FEAT3R_ETHUSDT.npz.b64 > mf_data_1m/FEAT3R_ETHUSDT.npz
 md5sum lr_10min.pkl lr_10min_retrain202610.pkl mf_data_1m/FEAT3R_*.npz
@@ -172,7 +175,7 @@ python3 mexc_check_positions.py  # 查当前持仓
 
 ---
 
-## 8. 包内文件清单（GitHub 副本共 117 个文件，约 33MB；zip 副本 113 个文件、约 15MB，内含 4 个二进制原文件。不含 MANIFEST.md 本身；完整清单与 MD5 见 MANIFEST.md）
+## 8. 包内文件清单（GitHub 副本共 125 个文件，约 33MB；zip 副本 113 个文件、约 15MB，内含 4 个二进制原文件。不含 MANIFEST.md 本身；完整清单与 MD5 见 MANIFEST.md）
 
 - `live/`（26 个）：现网脚本、双模型、账本、状态、结算脚本、回测文件
 - `multicoin/`（8 个）：多币种脚本、缓存模块、账本、状态、测试脚本
@@ -183,7 +186,7 @@ python3 mexc_check_positions.py  # 查当前持仓
 - `crons/`（9 个）：8 个在用 cron 全文 + 1 个已停用（disabled/）
 - `docs/`（14 个）：优化实验报告、影子线报告、Tardis 探针报告
 - 根目录：`RESTORE-FULL.md`（本文件）、`MANIFEST.md`（文件清单 + MD5）
-- 另有 4 个 `.b64` 文件（GitHub 副本独有）：`live/lr_10min.pkl.b64`、`shadow/lr_10min_retrain202610.pkl.b64`、`shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64`、`shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64`，解码方法见第 1 节
+- 另有 12 个 `.b64` 文件（GitHub 副本独有）：`live/lr_10min.pkl.b64`、`shadow/lr_10min_retrain202610.pkl.b64`，以及两个 `.npz` 各 5 个 2MB 分片 `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-00~04`、`shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-00~04`，解码方法见第 1 节
 
 **不含密钥声明**：打包前已逐项检查——`mexc_trader_state.json`、各类 state json、账本、日志均不含 API key/密码/UUID；`bark_send.py` 不含 key（运行时从 Vault 注入）。如在包内发现任何疑似密钥值，请立即删除并告知用户，不要使用。
 

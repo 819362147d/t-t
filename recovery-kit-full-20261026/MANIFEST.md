@@ -1,6 +1,6 @@
 # 恢复包文件清单 MANIFEST
 
-打包时间：2026-10-26 约 21:40 CST；2026-10-26 22:06 补传 4 个 .b64 文件。GitHub 副本共 117 个文件（不含本清单），总计约 33M；zip 副本为 113 个文件（约 15M），内含 4 个二进制原文件而非 .b64。
+打包时间：2026-10-26 约 21:40 CST；2026-10-26 22:06 补传 4 个 .b64 文件。GitHub 副本共 125 个文件（不含本清单），总计约 33M；zip 副本为 113 个文件（约 15M），内含 4 个二进制原文件而非 .b64/分片。
 
 校验方法：解压后在包根目录逐项比对下方 MD5，例如 `md5sum <文件>`。
 
@@ -88,9 +88,17 @@
 | `shadow/lr_10min_retrain202610.pkl` | 2356 | `09f3b3ff858db2130e413f7d95cc5844` |
 | `shadow/lr_10min_retrain202610.pkl.b64` | 3144 | `199c3ff49ddd30a29e4915d41de7cb15` |
 | `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz` | 6757271 | `facdf8bc7d4fc5d957dab10998fa4d99` |
-| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64` | 9009696 | `503ab8147fa752c6b5aee7af6d572d0a` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-00` | 2097152 | `a57aef08544c9093053f93084c492741` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-01` | 2097152 | `9d1def4cb8842decda8427bf0f72f52d` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-02` | 2097152 | `b992661f3a4204cd1b6a5d3021c528fc` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-03` | 2097152 | `80d2c4e0fd39280f7cf933ec2472fe8d` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64.part-04` | 621088 | `73a8309f2aa2de87d059a9dd698fc0bf` |
 | `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz` | 6754367 | `63efd8bb0bcba9361c43a04e88b99fdc` |
-| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64` | 9005824 | `63294e8058afd11663ab59692fb56b78` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-00` | 2097152 | `383f319772a6550ba368ddcabe074fa3` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-01` | 2097152 | `b43a80cf99fb3f6151958f46c0bbaf3e` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-02` | 2097152 | `ac0793a826b9e195e7acebae609a360f` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-03` | 2097152 | `ce6e7cf233ffe3851ec15188fdca6ef2` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64.part-04` | 617216 | `0ff78d605f08d1327070970e5fe5908c` |
 | `shadow/model_10min_meta_retrain202610.json` | 1268 | `27b503b4a615bf8e260270953172420c` |
 | `shadow/model_shadow_allfeat_meta.json` | 2329 | `be0901b6add8350d96c1cc992ec6eb37` |
 | `shadow/retrain_build_5m.py` | 1973 | `4a0b61547ff01fad8dfc3c860081203f` |
