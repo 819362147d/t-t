@@ -1,0 +1,86 @@
+{
+  "feature_names": [
+    "trend_score",
+    "abs_trend_score",
+    "cvd_z_5m",
+    "cvd_z_15m",
+    "rsi14",
+    "macd_hist",
+    "boll_pctB",
+    "atr_norm",
+    "vol_z",
+    "mom_1h",
+    "mom_4h",
+    "flip_long",
+    "flip_short",
+    "rsi14_5m",
+    "rsi14_1h",
+    "boll_pctB_5m",
+    "boll_pctB_1h",
+    "kdj_j_15m",
+    "willr14_15m",
+    "x_mom_1h",
+    "x_mom_4h",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "rsi14_1m",
+    "rsi14_3m",
+    "boll_pctB_1m",
+    "cvd_z_1m",
+    "mom_10m",
+    "mom_30m",
+    "tbr_5m",
+    "tbr_1m",
+    "tbr5_dev288",
+    "basis_fut",
+    "basis_mark",
+    "basis_fut_dev288",
+    "fund_last",
+    "fund_ma3",
+    "oi_chg_1h",
+    "oi_chg_24h",
+    "qvol_z288",
+    "body_ratio_5m",
+    "range_5m"
+  ],
+  "n_train_full": 200854,
+  "t0_ms": 1762066800000,
+  "t1_ms": 1792194600000,
+  "base_up": 0.4959572624891712,
+  "gbm_params": {
+    "objective": "binary",
+    "num_leaves": 15,
+    "learning_rate": 0.05,
+    "min_child_samples": 1000,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 5,
+    "num_threads": 2,
+    "seed": 42,
+    "deterministic": true
+  },
+  "gbm_best_iter_probe": 45,
+  "gbm_refit_rounds": 45,
+  "bands": [
+    0.55,
+    0.58,
+    0.6
+  ],
+  "insample_band_stats": {
+    "0.55": {
+      "n": 31560,
+      "wr": 0.6096007604562738
+    },
+    "0.58": {
+      "n": 3663,
+      "wr": 0.6816816816816816
+    },
+    "0.6": {
+      "n": 241,
+      "wr": 0.7551867219917012
+    }
+  },
+  "note": "影子版全组合（FEAT3+13 新特征），训练协议与现网一致；样本外期望以实验二 walk-forward 为准：0.55 档 0.566（n=26,926）、0.58 档 0.589（n=6,617）、0.60 档约 0.596（n=2,304），均为线索级、CI 与基线重叠。OI 特征语义：Vision metrics 存档 create_time X 的值 == REST openInterestHist 标签 X+300000 的值（2026-10-19 全天 288/288 点精确验证）；影子实盘按 A(X)=REST(X+300000) 复刻，故每轮计算候选时刻为最新已收盘 bar 再往前一根（滞后两 tick 记账，含 OI 最新格点约 1-2 分钟发布延迟的余量）。存档 OI 在 2026-10-15 约 11:45–15:10 UTC 有损坏段（与已知 0 值坏 tick 同窗，BTC 偏离 ≤3%、ETH ≤23%），该窗候选点的回测 OI 特征受污染，样本占比小但如实记录。"
+}

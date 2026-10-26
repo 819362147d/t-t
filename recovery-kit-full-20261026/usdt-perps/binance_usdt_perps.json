@@ -1,0 +1,2617 @@
+[
+ {
+  "exchange": "binance",
+  "symbol": "BTCUSDT",
+  "base": "BTC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ETHUSDT",
+  "base": "ETH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BCHUSDT",
+  "base": "BCH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XRPUSDT",
+  "base": "XRP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LTCUSDT",
+  "base": "LTC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRXUSDT",
+  "base": "TRX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ETCUSDT",
+  "base": "ETC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LINKUSDT",
+  "base": "LINK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XLMUSDT",
+  "base": "XLM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ADAUSDT",
+  "base": "ADA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XMRUSDT",
+  "base": "XMR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DASHUSDT",
+  "base": "DASH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZECUSDT",
+  "base": "ZEC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XTZUSDT",
+  "base": "XTZ"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BNBUSDT",
+  "base": "BNB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ATOMUSDT",
+  "base": "ATOM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ONTUSDT",
+  "base": "ONT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IOTAUSDT",
+  "base": "IOTA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BATUSDT",
+  "base": "BAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VETUSDT",
+  "base": "VET"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NEOUSDT",
+  "base": "NEO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "QTUMUSDT",
+  "base": "QTUM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IOSTUSDT",
+  "base": "IOST"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "THETAUSDT",
+  "base": "THETA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALGOUSDT",
+  "base": "ALGO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZILUSDT",
+  "base": "ZIL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KNCUSDT",
+  "base": "KNC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZRXUSDT",
+  "base": "ZRX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COMPUSDT",
+  "base": "COMP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOGEUSDT",
+  "base": "DOGE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KAVAUSDT",
+  "base": "KAVA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BANDUSDT",
+  "base": "BAND"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RLCUSDT",
+  "base": "RLC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SNXUSDT",
+  "base": "SNX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOTUSDT",
+  "base": "DOT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "YFIUSDT",
+  "base": "YFI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CRVUSDT",
+  "base": "CRV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRBUSDT",
+  "base": "TRB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RUNEUSDT",
+  "base": "RUNE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SUSHIUSDT",
+  "base": "SUSHI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EGLDUSDT",
+  "base": "EGLD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SOLUSDT",
+  "base": "SOL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "UNIUSDT",
+  "base": "UNI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AVAXUSDT",
+  "base": "AVAX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ENJUSDT",
+  "base": "ENJ"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KSMUSDT",
+  "base": "KSM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NEARUSDT",
+  "base": "NEAR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AAVEUSDT",
+  "base": "AAVE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FILUSDT",
+  "base": "FIL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RSRUSDT",
+  "base": "RSR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BELUSDT",
+  "base": "BEL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AXSUSDT",
+  "base": "AXS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZENUSDT",
+  "base": "ZEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SKLUSDT",
+  "base": "SKL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GRTUSDT",
+  "base": "GRT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1INCHUSDT",
+  "base": "1INCH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CHZUSDT",
+  "base": "CHZ"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SANDUSDT",
+  "base": "SAND"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ANKRUSDT",
+  "base": "ANKR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RVNUSDT",
+  "base": "RVN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SFPUSDT",
+  "base": "SFP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COTIUSDT",
+  "base": "COTI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CHRUSDT",
+  "base": "CHR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MANAUSDT",
+  "base": "MANA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALICEUSDT",
+  "base": "ALICE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HBARUSDT",
+  "base": "HBAR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ONEUSDT",
+  "base": "ONE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CELRUSDT",
+  "base": "CELR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HOTUSDT",
+  "base": "HOT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MTLUSDT",
+  "base": "MTL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OGNUSDT",
+  "base": "OGN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000SHIBUSDT",
+  "base": "1000SHIB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GTCUSDT",
+  "base": "GTC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BTCDOMUSDT",
+  "base": "BTCDOM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IOTXUSDT",
+  "base": "IOTX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "C98USDT",
+  "base": "C98"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MASKUSDT",
+  "base": "MASK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DYDXUSDT",
+  "base": "DYDX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000XECUSDT",
+  "base": "1000XEC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GALAUSDT",
+  "base": "GALA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CELOUSDT",
+  "base": "CELO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARUSDT",
+  "base": "AR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARPAUSDT",
+  "base": "ARPA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CTSIUSDT",
+  "base": "CTSI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LPTUSDT",
+  "base": "LPT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ENSUSDT",
+  "base": "ENS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PEOPLEUSDT",
+  "base": "PEOPLE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ROSEUSDT",
+  "base": "ROSE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DUSKUSDT",
+  "base": "DUSK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FLOWUSDT",
+  "base": "FLOW"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IMXUSDT",
+  "base": "IMX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "API3USDT",
+  "base": "API3"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GMTUSDT",
+  "base": "GMT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "APEUSDT",
+  "base": "APE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WOOUSDT",
+  "base": "WOO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JASMYUSDT",
+  "base": "JASMY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OPUSDT",
+  "base": "OP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "INJUSDT",
+  "base": "INJ"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SPELLUSDT",
+  "base": "SPELL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000LUNCUSDT",
+  "base": "1000LUNC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LUNA2USDT",
+  "base": "LUNA2"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LDOUSDT",
+  "base": "LDO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ICPUSDT",
+  "base": "ICP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "APTUSDT",
+  "base": "APT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "QNTUSDT",
+  "base": "QNT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FETUSDT",
+  "base": "FET"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MAGICUSDT",
+  "base": "MAGIC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TUSDT",
+  "base": "T"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MINAUSDT",
+  "base": "MINA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ASTRUSDT",
+  "base": "ASTR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GMXUSDT",
+  "base": "GMX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CFXUSDT",
+  "base": "CFX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STXUSDT",
+  "base": "STX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ACHUSDT",
+  "base": "ACH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SSVUSDT",
+  "base": "SSV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CKBUSDT",
+  "base": "CKB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LQTYUSDT",
+  "base": "LQTY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "USDCUSDT",
+  "base": "USDC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IDUSDT",
+  "base": "ID"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARBUSDT",
+  "base": "ARB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JOEUSDT",
+  "base": "JOE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TLMUSDT",
+  "base": "TLM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XVSUSDT",
+  "base": "XVS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BLURUSDT",
+  "base": "BLUR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EDUUSDT",
+  "base": "EDU"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SUIUSDT",
+  "base": "SUI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000PEPEUSDT",
+  "base": "1000PEPE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000FLOKIUSDT",
+  "base": "1000FLOKI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "UMAUSDT",
+  "base": "UMA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NMRUSDT",
+  "base": "NMR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MAVUSDT",
+  "base": "MAV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XVGUSDT",
+  "base": "XVG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WLDUSDT",
+  "base": "WLD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PENDLEUSDT",
+  "base": "PENDLE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARKMUSDT",
+  "base": "ARKM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AGLDUSDT",
+  "base": "AGLD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "YGGUSDT",
+  "base": "YGG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DODOXUSDT",
+  "base": "DODOX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BNTUSDT",
+  "base": "BNT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SEIUSDT",
+  "base": "SEI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CYBERUSDT",
+  "base": "CYBER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARKUSDT",
+  "base": "ARK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BICOUSDT",
+  "base": "BICO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BIGTIMEUSDT",
+  "base": "BIGTIME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WAXPUSDT",
+  "base": "WAXP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BSVUSDT",
+  "base": "BSV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RIFUSDT",
+  "base": "RIF"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "POLYXUSDT",
+  "base": "POLYX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GASUSDT",
+  "base": "GAS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "POWRUSDT",
+  "base": "POWR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TIAUSDT",
+  "base": "TIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CAKEUSDT",
+  "base": "CAKE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MEMEUSDT",
+  "base": "MEME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TWTUSDT",
+  "base": "TWT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ORDIUSDT",
+  "base": "ORDI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STEEMUSDT",
+  "base": "STEEM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ILVUSDT",
+  "base": "ILV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KASUSDT",
+  "base": "KAS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BEAMXUSDT",
+  "base": "BEAMX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000BONKUSDT",
+  "base": "1000BONK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PYTHUSDT",
+  "base": "PYTH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SUPERUSDT",
+  "base": "SUPER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "USTCUSDT",
+  "base": "USTC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ONGUSDT",
+  "base": "ONG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ETHWUSDT",
+  "base": "ETHW"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JTOUSDT",
+  "base": "JTO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000SATSUSDT",
+  "base": "1000SATS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AUCTIONUSDT",
+  "base": "AUCTION"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000RATSUSDT",
+  "base": "1000RATS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ACEUSDT",
+  "base": "ACE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MOVRUSDT",
+  "base": "MOVR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XAIUSDT",
+  "base": "XAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WIFUSDT",
+  "base": "WIF"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MANTAUSDT",
+  "base": "MANTA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ONDOUSDT",
+  "base": "ONDO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LSKUSDT",
+  "base": "LSK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALTUSDT",
+  "base": "ALT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JUPUSDT",
+  "base": "JUP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZETAUSDT",
+  "base": "ZETA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RONINUSDT",
+  "base": "RONIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DYMUSDT",
+  "base": "DYM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PIXELUSDT",
+  "base": "PIXEL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STRKUSDT",
+  "base": "STRK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GLMUSDT",
+  "base": "GLM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PORTALUSDT",
+  "base": "PORTAL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AXLUSDT",
+  "base": "AXL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "METISUSDT",
+  "base": "METIS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AEVOUSDT",
+  "base": "AEVO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BOMEUSDT",
+  "base": "BOME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ETHFIUSDT",
+  "base": "ETHFI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ENAUSDT",
+  "base": "ENA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WUSDT",
+  "base": "W"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TNSRUSDT",
+  "base": "TNSR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SAGAUSDT",
+  "base": "SAGA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TAOUSDT",
+  "base": "TAO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "REZUSDT",
+  "base": "REZ"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BBUSDT",
+  "base": "BB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NOTUSDT",
+  "base": "NOT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TURBOUSDT",
+  "base": "TURBO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IOUSDT",
+  "base": "IO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZKUSDT",
+  "base": "ZK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MEWUSDT",
+  "base": "MEW"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LISTAUSDT",
+  "base": "LISTA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZROUSDT",
+  "base": "ZRO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RENDERUSDT",
+  "base": "RENDER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BANANAUSDT",
+  "base": "BANANA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RAREUSDT",
+  "base": "RARE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GUSDT",
+  "base": "G"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SYNUSDT",
+  "base": "SYN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BRETTUSDT",
+  "base": "BRETT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "POPCATUSDT",
+  "base": "POPCAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SUNUSDT",
+  "base": "SUN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOGSUSDT",
+  "base": "DOGS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FLUXUSDT",
+  "base": "FLUX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RPLUSDT",
+  "base": "RPL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "POLUSDT",
+  "base": "POL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1MBABYDOGEUSDT",
+  "base": "1MBABYDOGE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NEIROUSDT",
+  "base": "NEIRO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FIDAUSDT",
+  "base": "FIDA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CATIUSDT",
+  "base": "CATI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HMSTRUSDT",
+  "base": "HMSTR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EIGENUSDT",
+  "base": "EIGEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DIAUSDT",
+  "base": "DIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000CATUSDT",
+  "base": "1000CAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SCRUSDT",
+  "base": "SCR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GOATUSDT",
+  "base": "GOAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MOODENGUSDT",
+  "base": "MOODENG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SAFEUSDT",
+  "base": "SAFE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SANTOSUSDT",
+  "base": "SANTOS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COWUSDT",
+  "base": "COW"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CETUSUSDT",
+  "base": "CETUS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000000MOGUSDT",
+  "base": "1000000MOG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GRASSUSDT",
+  "base": "GRASS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DRIFTUSDT",
+  "base": "DRIFT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ACTUSDT",
+  "base": "ACT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PNUTUSDT",
+  "base": "PNUT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BANUSDT",
+  "base": "BAN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AKTUSDT",
+  "base": "AKT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "1000CHEEMSUSDT",
+  "base": "1000CHEEMS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "THEUSDT",
+  "base": "THE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MORPHOUSDT",
+  "base": "MORPHO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CHILLGUYUSDT",
+  "base": "CHILLGUY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KAIAUSDT",
+  "base": "KAIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AEROUSDT",
+  "base": "AERO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ORCAUSDT",
+  "base": "ORCA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MOVEUSDT",
+  "base": "MOVE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RAYSOLUSDT",
+  "base": "RAYSOL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KOMAUSDT",
+  "base": "KOMA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VIRTUALUSDT",
+  "base": "VIRTUAL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SPXUSDT",
+  "base": "SPX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MEUSDT",
+  "base": "ME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AVAUSDT",
+  "base": "AVA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VELODROMEUSDT",
+  "base": "VELODROME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MOCAUSDT",
+  "base": "MOCA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VANAUSDT",
+  "base": "VANA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PENGUUSDT",
+  "base": "PENGU"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LUMIAUSDT",
+  "base": "LUMIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "USUALUSDT",
+  "base": "USUAL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AIXBTUSDT",
+  "base": "AIXBT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FARTCOINUSDT",
+  "base": "FARTCOIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KMNOUSDT",
+  "base": "KMNO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CGPTUSDT",
+  "base": "CGPT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HIVEUSDT",
+  "base": "HIVE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DEXEUSDT",
+  "base": "DEXE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PHAUSDT",
+  "base": "PHA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GRIFFAINUSDT",
+  "base": "GRIFFAIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZEREBROUSDT",
+  "base": "ZEREBRO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BIOUSDT",
+  "base": "BIO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COOKIEUSDT",
+  "base": "COOKIE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALCHUSDT",
+  "base": "ALCH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SWARMSUSDT",
+  "base": "SWARMS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SONICUSDT",
+  "base": "SONIC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PROMUSDT",
+  "base": "PROM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SUSDT",
+  "base": "S"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SOLVUSDT",
+  "base": "SOLV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARCUSDT",
+  "base": "ARC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AVAAIUSDT",
+  "base": "AVAAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRUMPUSDT",
+  "base": "TRUMP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MELANIAUSDT",
+  "base": "MELANIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VTHOUSDT",
+  "base": "VTHO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ANIMEUSDT",
+  "base": "ANIME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PIPPINUSDT",
+  "base": "PIPPIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VVVUSDT",
+  "base": "VVV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BERAUSDT",
+  "base": "BERA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TSTUSDT",
+  "base": "TST"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LAYERUSDT",
+  "base": "LAYER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HEIUSDT",
+  "base": "HEI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GPSUSDT",
+  "base": "GPS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SHELLUSDT",
+  "base": "SHELL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KAITOUSDT",
+  "base": "KAITO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "REDUSDT",
+  "base": "RED"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BMTUSDT",
+  "base": "BMT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MUBARAKUSDT",
+  "base": "MUBARAK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FORMUSDT",
+  "base": "FORM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TUTUSDT",
+  "base": "TUT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BROCCOLI714USDT",
+  "base": "BROCCOLI714"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BROCCOLIF3BUSDT",
+  "base": "BROCCOLIF3B"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SIRENUSDT",
+  "base": "SIREN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BANANAS31USDT",
+  "base": "BANANAS31"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BRUSDT",
+  "base": "BR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PLUMEUSDT",
+  "base": "PLUME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NILUSDT",
+  "base": "NIL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PARTIUSDT",
+  "base": "PARTI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JELLYJELLYUSDT",
+  "base": "JELLYJELLY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MAVIAUSDT",
+  "base": "MAVIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PAXGUSDT",
+  "base": "PAXG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WALUSDT",
+  "base": "WAL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GUNUSDT",
+  "base": "GUN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ATHUSDT",
+  "base": "ATH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BABYUSDT",
+  "base": "BABY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STOUSDT",
+  "base": "STO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FHEUSDT",
+  "base": "FHE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KERNELUSDT",
+  "base": "KERNEL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WCTUSDT",
+  "base": "WCT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "INITUSDT",
+  "base": "INIT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BANKUSDT",
+  "base": "BANK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DEEPUSDT",
+  "base": "DEEP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HYPERUSDT",
+  "base": "HYPER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JSTUSDT",
+  "base": "JST"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SIGNUSDT",
+  "base": "SIGN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PUNDIXUSDT",
+  "base": "PUNDIX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CTKUSDT",
+  "base": "CTK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AIOTUSDT",
+  "base": "AIOT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOLOUSDT",
+  "base": "DOLO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HAEDALUSDT",
+  "base": "HAEDAL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SXTUSDT",
+  "base": "SXT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ASRUSDT",
+  "base": "ASR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALPINEUSDT",
+  "base": "ALPINE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "B2USDT",
+  "base": "B2"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SYRUPUSDT",
+  "base": "SYRUP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOODUSDT",
+  "base": "DOOD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OGUSDT",
+  "base": "OG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SKYAIUSDT",
+  "base": "SKYAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NXPCUSDT",
+  "base": "NXPC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CVCUSDT",
+  "base": "CVC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AGTUSDT",
+  "base": "AGT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AWEUSDT",
+  "base": "AWE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BUSDT",
+  "base": "B"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SOONUSDT",
+  "base": "SOON"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HUMAUSDT",
+  "base": "HUMA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AUSDT",
+  "base": "A"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SOPHUSDT",
+  "base": "SOPH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MERLUSDT",
+  "base": "MERL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HYPEUSDT",
+  "base": "HYPE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LAUSDT",
+  "base": "LA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HOMEUSDT",
+  "base": "HOME"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RESOLVUSDT",
+  "base": "RESOLV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TAIKOUSDT",
+  "base": "TAIKO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SQDUSDT",
+  "base": "SQD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SPKUSDT",
+  "base": "SPK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MYXUSDT",
+  "base": "MYX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FUSDT",
+  "base": "F"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NEWTUSDT",
+  "base": "NEWT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HUSDT",
+  "base": "H"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SAHARAUSDT",
+  "base": "SAHARA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ICNTUSDT",
+  "base": "ICNT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BULLAUSDT",
+  "base": "BULLA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IDOLUSDT",
+  "base": "IDOL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MUSDT",
+  "base": "M"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PUMPUSDT",
+  "base": "PUMP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CROSSUSDT",
+  "base": "CROSS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AINUSDT",
+  "base": "AIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CUSDT",
+  "base": "C"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "VELVETUSDT",
+  "base": "VELVET"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TACUSDT",
+  "base": "TAC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ERAUSDT",
+  "base": "ERA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TAUSDT",
+  "base": "TA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CVXUSDT",
+  "base": "CVX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SLPUSDT",
+  "base": "SLP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZORAUSDT",
+  "base": "ZORA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TAGUSDT",
+  "base": "TAG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ESPORTSUSDT",
+  "base": "ESPORTS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TREEUSDT",
+  "base": "TREE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PLAYUSDT",
+  "base": "PLAY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NAORISUSDT",
+  "base": "NAORIS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TOWNSUSDT",
+  "base": "TOWNS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PROVEUSDT",
+  "base": "PROVE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALLUSDT",
+  "base": "ALL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "INUSDT",
+  "base": "IN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CARVUSDT",
+  "base": "CARV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AIOUSDT",
+  "base": "AIO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XNYUSDT",
+  "base": "XNY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "USELESSUSDT",
+  "base": "USELESS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SAPIENUSDT",
+  "base": "SAPIEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XPLUSDT",
+  "base": "XPL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WLFIUSDT",
+  "base": "WLFI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SOMIUSDT",
+  "base": "SOMI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BASUSDT",
+  "base": "BAS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BTRUSDT",
+  "base": "BTR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HEMIUSDT",
+  "base": "HEMI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LINEAUSDT",
+  "base": "LINEA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "QUSDT",
+  "base": "Q"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARIAUSDT",
+  "base": "ARIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TAKEUSDT",
+  "base": "TAKE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OPENUSDT",
+  "base": "OPEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FLOCKUSDT",
+  "base": "FLOCK"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SKYUSDT",
+  "base": "SKY"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AVNTUSDT",
+  "base": "AVNT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HOLOUSDT",
+  "base": "HOLO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XPINUSDT",
+  "base": "XPIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "UBUSDT",
+  "base": "UB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZKCUSDT",
+  "base": "ZKC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TOSHIUSDT",
+  "base": "TOSHI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STBLUSDT",
+  "base": "STBL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "0GUSDT",
+  "base": "0G"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BARDUSDT",
+  "base": "BARD"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ASTERUSDT",
+  "base": "ASTER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRADOORUSDT",
+  "base": "TRADOOR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BLESSUSDT",
+  "base": "BLESS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FLUIDUSDT",
+  "base": "FLUID"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COAIUSDT",
+  "base": "COAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "HANAUSDT",
+  "base": "HANA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MIRAUSDT",
+  "base": "MIRA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AKEUSDT",
+  "base": "AKE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ORDERUSDT",
+  "base": "ORDER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LIGHTUSDT",
+  "base": "LIGHT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XANUSDT",
+  "base": "XAN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FFUSDT",
+  "base": "FF"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EDENUSDT",
+  "base": "EDEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NOMUSDT",
+  "base": "NOM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRUTHUSDT",
+  "base": "TRUTH"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "2ZUSDT",
+  "base": "2Z"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EVAAUSDT",
+  "base": "EVAA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LYNUSDT",
+  "base": "LYN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KGENUSDT",
+  "base": "KGEN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "4USDT",
+  "base": "4"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GIGGLEUSDT",
+  "base": "GIGGLE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MONUSDT",
+  "base": "MON"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "YBUSDT",
+  "base": "YB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "METUSDT",
+  "base": "MET"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EULUSDT",
+  "base": "EUL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ENSOUSDT",
+  "base": "ENSO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CLOUSDT",
+  "base": "CLO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RECALLUSDT",
+  "base": "RECALL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZBTUSDT",
+  "base": "ZBT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LABUSDT",
+  "base": "LAB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RIVERUSDT",
+  "base": "RIVER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "\u5e01\u5b89\u4eba\u751fUSDT",
+  "base": "\u5e01\u5b89\u4eba\u751f"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BLUAIUSDT",
+  "base": "BLUAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TURTLEUSDT",
+  "base": "TURTLE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "APRUSDT",
+  "base": "APR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ONUSDT",
+  "base": "ON"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KITEUSDT",
+  "base": "KITE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ATUSDT",
+  "base": "AT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CCUSDT",
+  "base": "CC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MMTUSDT",
+  "base": "MMT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRUSTUSDT",
+  "base": "TRUST"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "UAIUSDT",
+  "base": "UAI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FOLKSUSDT",
+  "base": "FOLKS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STABLEUSDT",
+  "base": "STABLE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "JCTUSDT",
+  "base": "JCT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ALLOUSDT",
+  "base": "ALLO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CLANKERUSDT",
+  "base": "CLANKER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BEATUSDT",
+  "base": "BEAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PIEVERSEUSDT",
+  "base": "PIEVERSE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SENTUSDT",
+  "base": "SENT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "IRYSUSDT",
+  "base": "IRYS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "POWERUSDT",
+  "base": "POWER"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "WETUSDT",
+  "base": "WET"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "NIGHTUSDT",
+  "base": "NIGHT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "USUSDT",
+  "base": "US"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CYSUSDT",
+  "base": "CYS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "RAVEUSDT",
+  "base": "RAVE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZKPUSDT",
+  "base": "ZKP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GUAUSDT",
+  "base": "GUA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "LITUSDT",
+  "base": "LIT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BREVUSDT",
+  "base": "BREV"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "COLLECTUSDT",
+  "base": "COLLECT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MAGMAUSDT",
+  "base": "MAGMA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZAMAUSDT",
+  "base": "ZAMA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FOGOUSDT",
+  "base": "FOGO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FRAXUSDT",
+  "base": "FRAX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SPORTFUNUSDT",
+  "base": "SPORTFUN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AIAUSDT",
+  "base": "AIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ACUUSDT",
+  "base": "ACU"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+  "base": "\u6211\u8e0f\u9a6c\u6765\u4e86"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ELSAUSDT",
+  "base": "ELSA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SKRUSDT",
+  "base": "SKR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SPACEUSDT",
+  "base": "SPACE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "FIGHTUSDT",
+  "base": "FIGHT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BIRBUSDT",
+  "base": "BIRB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GWEIUSDT",
+  "base": "GWEI"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MEGAUSDT",
+  "base": "MEGA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "INXUSDT",
+  "base": "INX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "TRIAUSDT",
+  "base": "TRIA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ESPUSDT",
+  "base": "ESP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AZTECUSDT",
+  "base": "AZTEC"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OPNUSDT",
+  "base": "OPN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ROBOUSDT",
+  "base": "ROBO"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "KATUSDT",
+  "base": "KAT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MANTRAUSDT",
+  "base": "MANTRA"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "\u9f99\u867eUSDT",
+  "base": "\u9f99\u867e"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CFGUSDT",
+  "base": "CFG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "EDGEUSDT",
+  "base": "EDGE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BSBUSDT",
+  "base": "BSB"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "XAUTUSDT",
+  "base": "XAUT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BASEDUSDT",
+  "base": "BASED"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PRLUSDT",
+  "base": "PRL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GENIUSUSDT",
+  "base": "GENIUS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CHIPUSDT",
+  "base": "CHIP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OPGUSDT",
+  "base": "OPG"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "AIGENSYNUSDT",
+  "base": "AIGENSYN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BILLUSDT",
+  "base": "BILL"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PHAROSUSDT",
+  "base": "PHAROS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "STARUSDT",
+  "base": "STAR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CTRUSDT",
+  "base": "CTR"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "SLXUSDT",
+  "base": "SLX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ZESTUSDT",
+  "base": "ZEST"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "BTWUSDT",
+  "base": "BTW"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "REUSDT",
+  "base": "RE"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "ARXUSDT",
+  "base": "ARX"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "OUSDT",
+  "base": "O"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CAPUSDT",
+  "base": "CAP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GRAMUSDT",
+  "base": "GRAM"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DATAIPUSDT",
+  "base": "DATAIP"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "GRVTUSDT",
+  "base": "GRVT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "DOSUSDT",
+  "base": "DOS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "\u725b\u6765USDT",
+  "base": "\u725b\u6765"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "MARSCOINUSDT",
+  "base": "MARSCOIN"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PONSUSDT",
+  "base": "PONS"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "\u54c8\u57fa\u7c73USDT",
+  "base": "\u54c8\u57fa\u7c73"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "CTUSDT",
+  "base": "CT"
+ },
+ {
+  "exchange": "binance",
+  "symbol": "PREDICTUSDT",
+  "base": "PREDICT"
+ }
+]
