@@ -1,8 +1,10 @@
 # 恢复包文件清单 MANIFEST
 
-打包时间：2026-10-26 约 21:40 CST。共 113 个文件（不含本清单），总计 15M。
+打包时间：2026-10-26 约 21:40 CST；2026-10-26 22:06 补传 4 个 .b64 文件。GitHub 副本共 117 个文件（不含本清单），总计约 33M；zip 副本为 113 个文件（约 15M），内含 4 个二进制原文件而非 .b64。
 
 校验方法：解压后在包根目录逐项比对下方 MD5，例如 `md5sum <文件>`。
+
+注：`*.b64` 是对应二进制文件的 base64 文本版（GitHub 上传工具不接受二进制），解码后 MD5 与表中原文件一致，解码步骤见 RESTORE-FULL.md 第 1 节。
 
 | 文件 | 大小（字节） | MD5 |
 |---|---|---|
@@ -48,6 +50,7 @@
 | `live/live-scorecard-20261018.md` | 3462 | `9781a9d5257abae1df8475147c3e9d44` |
 | `live/live_winrate_watch.py` | 2795 | `508fcd3fbf34627b8d9fa5b35f82d1cb` |
 | `live/lr_10min.pkl` | 2356 | `a419e2b0bd93c2ac15603aedd72926a7` |
+| `live/lr_10min.pkl.b64` | 3144 | `1bdcc92759cbccac04c2b6c19359adfc` |
 | `live/mf_analyze.py` | 10520 | `d22d85d5f596b4b4c059c2acd5b3f98b` |
 | `live/mf_analyze_v2.py` | 11110 | `40855ca72e78ecbd8a053c2e610a1228` |
 | `live/mf_download.py` | 1936 | `77f09c8f0db9cececf9840d88d7be7b0` |
@@ -83,8 +86,11 @@
 | `shadow/lightgbm_10min_retrain202610.txt` | 49761 | `ac2b7e5a67632fd1c81100432feb7856` |
 | `shadow/lightgbm_shadow_allfeat.txt` | 87470 | `b01831cab945510a59bcc1c211f12dc5` |
 | `shadow/lr_10min_retrain202610.pkl` | 2356 | `09f3b3ff858db2130e413f7d95cc5844` |
+| `shadow/lr_10min_retrain202610.pkl.b64` | 3144 | `199c3ff49ddd30a29e4915d41de7cb15` |
 | `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz` | 6757271 | `facdf8bc7d4fc5d957dab10998fa4d99` |
+| `shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64` | 9009696 | `503ab8147fa752c6b5aee7af6d572d0a` |
 | `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz` | 6754367 | `63efd8bb0bcba9361c43a04e88b99fdc` |
+| `shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64` | 9005824 | `63294e8058afd11663ab59692fb56b78` |
 | `shadow/model_10min_meta_retrain202610.json` | 1268 | `27b503b4a615bf8e260270953172420c` |
 | `shadow/model_shadow_allfeat_meta.json` | 2329 | `be0901b6add8350d96c1cc992ec6eb37` |
 | `shadow/retrain_build_5m.py` | 1973 | `4a0b61547ff01fad8dfc3c860081203f` |

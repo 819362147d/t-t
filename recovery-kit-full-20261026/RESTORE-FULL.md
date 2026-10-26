@@ -49,6 +49,23 @@ cp -r recovery-kit-full-20261026/docs/*     $GOAL/hidden_files/
 | `crons/` | `$GOAL/crons/` | 8 个在用 cron 全文（见第 5 节） |
 | `docs/` | `$GOAL/hidden_files/`（参考） | 优化实验报告、影子线报告 |
 
+
+### 二进制模型文件解码（只针对从 GitHub 恢复的情况）
+
+GitHub 副本里 4 个二进制模型文件以 base64 文本（`.b64`）存放（GitHub 上传工具不接受二进制；zip 副本里是原文件，不用这步）。按第 1 节复制完文件后，在 `$GOAL/hidden_files/` 下跑：
+
+```bash
+cd $GOAL/hidden_files
+base64 -d lr_10min.pkl.b64 > lr_10min.pkl
+base64 -d lr_10min_retrain202610.pkl.b64 > lr_10min_retrain202610.pkl
+base64 -d mf_data_1m/FEAT3R_BTCUSDT.npz.b64 > mf_data_1m/FEAT3R_BTCUSDT.npz
+base64 -d mf_data_1m/FEAT3R_ETHUSDT.npz.b64 > mf_data_1m/FEAT3R_ETHUSDT.npz
+md5sum lr_10min.pkl lr_10min_retrain202610.pkl mf_data_1m/FEAT3R_*.npz
+# 预期：a419e2b0bd93c2ac15603aedd72926a7 / 09f3b3ff858db2130e413f7d95cc5844 / facdf8bc7d4fc5d957dab10998fa4d99 / 63efd8bb0bcba9361c43a04e88b99fdc
+```
+
+解完可删 `.b64` 文件。4 个文件也能按第 3 节方法重建（.pkl 重训、.npz 由流水线重建），解码只是最快的一条路。
+
 ---
 
 ## 2. 依赖
@@ -155,7 +172,7 @@ python3 mexc_check_positions.py  # 查当前持仓
 
 ---
 
-## 8. 包内文件清单（共 113 个文件，约 15MB，不含 MANIFEST.md 本身；完整清单与 MD5 见 MANIFEST.md）
+## 8. 包内文件清单（GitHub 副本共 117 个文件，约 33MB；zip 副本 113 个文件、约 15MB，内含 4 个二进制原文件。不含 MANIFEST.md 本身；完整清单与 MD5 见 MANIFEST.md）
 
 - `live/`（26 个）：现网脚本、双模型、账本、状态、结算脚本、回测文件
 - `multicoin/`（8 个）：多币种脚本、缓存模块、账本、状态、测试脚本
@@ -166,6 +183,7 @@ python3 mexc_check_positions.py  # 查当前持仓
 - `crons/`（9 个）：8 个在用 cron 全文 + 1 个已停用（disabled/）
 - `docs/`（14 个）：优化实验报告、影子线报告、Tardis 探针报告
 - 根目录：`RESTORE-FULL.md`（本文件）、`MANIFEST.md`（文件清单 + MD5）
+- 另有 4 个 `.b64` 文件（GitHub 副本独有）：`live/lr_10min.pkl.b64`、`shadow/lr_10min_retrain202610.pkl.b64`、`shadow/mf_data_1m/FEAT3R_BTCUSDT.npz.b64`、`shadow/mf_data_1m/FEAT3R_ETHUSDT.npz.b64`，解码方法见第 1 节
 
 **不含密钥声明**：打包前已逐项检查——`mexc_trader_state.json`、各类 state json、账本、日志均不含 API key/密码/UUID；`bark_send.py` 不含 key（运行时从 Vault 注入）。如在包内发现任何疑似密钥值，请立即删除并告知用户，不要使用。
 
