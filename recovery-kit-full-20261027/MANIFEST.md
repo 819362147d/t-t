@@ -1,6 +1,6 @@
 # 恢复包文件清单 MANIFEST
 
-打包时间：2026-10-27 约 12:00 CST。GitHub 副本共 125 个文件（不含本清单），总计约 32M；zip 副本为 113 个文件（约 15M），内含 4 个二进制原文件而非 .b64/分片。
+打包时间：2026-10-27 约 12:00 CST。GitHub 副本共 127 个文件（不含本清单），总计约 32M；zip 副本为 115 个文件（约 15M），内含 4 个二进制原文件而非 .b64/分片。
 
 校验方法：解压后在包根目录逐项比对下方 MD5，例如 `md5sum <文件>`。
 
@@ -8,7 +8,7 @@
 
 | 文件 | 大小（字节） | MD5 |
 |---|---|---|
-| `RESTORE-FULL.md` | 18222 | `37861020171e8648952c534b9f881bf8` |
+| `RESTORE-FULL.md` | 18400 | `c310592368ceef9ac06957384363edc5` |
 | `bark/CONNECTOR.md` | 3051 | `ba5080d6f2fb2008a93479629a8ddc3d` |
 | `bark/bark_send.py` | 1885 | `6198f0844dd880f2d140e66ce2464d8a` |
 | `bark/connector.yaml` | 1072 | `4129e5ff06bae202271c2ae6979ae9bb` |
@@ -70,6 +70,8 @@
 | `mexc/mexc_top3_signals.py` | 1056 | `356dabed551750038d1462aef819bb25` |
 | `mexc/mexc_trade_client.py` | 8412 | `ce3dee82dda8a096587660abf7a83501` |
 | `mexc/mexc_trader_daemon.py` | 21901 | `6f285dfb1aecdd8a46a4abfba822b84d` |
+| `mexc/mexc_trader_daemon_v2.py` | 41294 | `a180f8ef2b36f42331f7633b701accce` |
+| `mexc/mexc_trader_daemon_v2_OPTIMIZATION.md` | 9710 | `4323ee8d12971594f5356c54451ff326` |
 | `mexc/mexc_trader_state.json` | 34871 | `22cca3a28b2b79bdde7d7f9aad831304` |
 | `multicoin/event_10min_multicoin_bot.py` | 14249 | `2959427b4c631d8b6e324cb0dcce9e92` |
 | `multicoin/multicoin-alerts.jsonl` | 662595 | `6185f6e4738dc8771844fe603a8b324c` |
