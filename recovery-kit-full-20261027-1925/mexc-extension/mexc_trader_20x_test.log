@@ -1,0 +1,6 @@
+2026-10-27 16:31:20 contract detail loaded: 1179 symbols
+2026-10-27 16:31:20 plan PYPLSTOCKUSDT 空 prob=0.43 ref=54.94 vol=3 margin~0.0824 tp=52.61 sl=55.63 lev=20x
+2026-10-27 16:31:20 plan TESLAUSDT 多 prob=0.56 ref=394.4 vol=1 margin~0.0789 tp=401.1 sl=392.43 lev=50x
+2026-10-27 16:31:20 skip SHEINSTOCKUSDT: maxLeverage 25 不在 50x/20x 分组内
+2026-10-27 16:31:20 plan RUNEUSDT 多 prob=0.56 ref=0.6212 vol=6 margin~0.0745 tp=0.6318 sl=0.6181 lev=50x
+2026-10-27 16:31:20 dry-run: would open 3 positions

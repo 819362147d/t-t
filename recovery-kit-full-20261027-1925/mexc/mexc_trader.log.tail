@@ -1,0 +1,100 @@
+2026-10-27 16:28:35 skip STOUSDT: maxLeverage 20 < 50
+2026-10-27 16:28:35 skip HAEDALUSDT: maxLeverage 20 < 50
+2026-10-27 16:28:51 contract detail loaded: 1179 symbols
+2026-10-27 16:28:52 capital equity=1.6710 available=1.4050
+2026-10-27 16:28:52 trader started dry_run=False capital=1.6710 leverage=50x open=2
+2026-10-27 16:28:52 fresh round t=1793089500000 age=233s cands=5
+2026-10-27 16:28:52 skip BANANAS31USDT: maxLeverage 25 < 50
+2026-10-27 16:28:52 plan CVCUSDT 空 prob=0.4377 ref=0.02529 vol=165 margin~0.0835 tp=0.02486 sl=0.02542
+2026-10-27 16:28:52 skip EDUUSDT: already held
+2026-10-27 16:28:52 skip STOUSDT: maxLeverage 20 < 50
+2026-10-27 16:28:52 skip HAEDALUSDT: maxLeverage 20 < 50
+2026-10-27 16:28:55 submit CVCUSDT with TP failed: 2042 Duplicate order ID, retried without TP
+2026-10-27 16:28:55 submit CVCUSDT failed: 2042 Duplicate order ID
+2026-10-27 16:33:19 fresh round t=1793089800000 age=199s cands=5
+2026-10-27 16:33:19 skip TNSRUSDT: maxLeverage 25 < 50
+2026-10-27 16:33:19 skip KERNELUSDT: maxLeverage 20 < 50
+2026-10-27 16:33:19 plan CVCUSDT 空 prob=0.4417 ref=0.02543 vol=164 margin~0.0834 tp=0.025 sl=0.02556
+2026-10-27 16:33:19 plan QTUMUSDT 多 prob=0.5573 ref=0.816 vol=51 margin~0.0832 tp=0.8299 sl=0.8119
+2026-10-27 16:33:19 plan SANDUSDT 多 prob=0.5566 ref=0.04723 vol=88 margin~0.0831 tp=0.04803 sl=0.04699
+2026-10-27 16:33:32 submit CVCUSDT with TP failed: 510 Requests are too frequent, please try again later, retried without TP
+2026-10-27 16:33:32 submit CVCUSDT failed: 510 Requests are too frequent, please try again later
+2026-10-27 16:33:32 opened QTUMUSDT order=869980867190273536 entry=0.8143
+2026-10-27 16:33:32 position check QTUMUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527933176, "symbol": "QTUM_USDT", "positionType": 1, "openType": 1, "state": 1, "holdVol": 51, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.8143, "holdAvgPriceFullyScale": "0.8143", "openAvgPrice": 0.8143, "openAvgPriceFullyScale": "0.8143", 
+2026-10-27 16:33:32 opened SANDUSDT order=869980867270481920 entry=0.04717
+2026-10-27 16:33:32 position check SANDUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527933177, "symbol": "SAND_USDT", "positionType": 1, "openType": 1, "state": 1, "holdVol": 88, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.04717, "holdAvgPriceFullyScale": "0.04717", "openAvgPrice": 0.04717, "openAvgPriceFullyScale": "0.0471
+2026-10-27 16:34:19 contract detail loaded: 1179 symbols
+2026-10-27 16:34:25 capital equity=1.6473 available=1.2839
+2026-10-27 16:34:25 trader started dry_run=False capital=1.6473 leverage=50x open=4
+2026-10-27 16:38:30 fresh round t=1793090100000 age=211s cands=5
+2026-10-27 16:38:30 skip TNSRUSDT: maxLeverage 25 < 50
+2026-10-27 16:38:30 skip BARDUSDT: maxLeverage 25 < 50
+2026-10-27 16:38:30 skip KERNELUSDT: maxLeverage 20 < 50
+2026-10-27 16:38:30 plan SAGAUSDT 空 prob=0.4418 ref=0.01825 vol=225 margin~0.0821 tp=0.01794 sl=0.01834
+2026-10-27 16:38:30 skip SANDUSDT: already held
+2026-10-27 16:38:43 opened SAGAUSDT order=869982173951095360 entry=0.01823
+2026-10-27 16:38:43 position check SAGAUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527935416, "symbol": "SAGA_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 225, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.01823, "holdAvgPriceFullyScale": "0.01823", "openAvgPrice": 0.01823, "openAvgPriceFullyScale": "0.018
+2026-10-27 16:43:21 fresh round t=1793090400000 age=202s cands=5
+2026-10-27 16:43:21 plan ASTERUSDT 空 prob=0.4397 ref=0.7127 vol=5 margin~0.0713 tp=0.7006 sl=0.7163
+2026-10-27 16:43:21 plan ZAMAUSDT 空 prob=0.4404 ref=0.07266 vol=5 margin~0.0727 tp=0.07142 sl=0.07302
+2026-10-27 16:43:21 skip KERNELUSDT: maxLeverage 20 < 50
+2026-10-27 16:43:21 skip RPLUSDT: maxLeverage 20 < 50
+2026-10-27 16:43:21 skip QTUMUSDT: already held
+2026-10-27 16:43:34 opened ASTERUSDT order=869983392735402624 entry=0.7116
+2026-10-27 16:43:34 position check ASTERUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527937594, "symbol": "ASTER_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 5, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.7116, "holdAvgPriceFullyScale": "0.7116", "openAvgPrice": 0.7116, "openAvgPriceFullyScale": "0.7116", 
+2026-10-27 16:43:34 opened ZAMAUSDT order=869983394033063104 entry=0.07254
+2026-10-27 16:43:34 position check ZAMAUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527937596, "symbol": "ZAMA_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 5, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.07254, "holdAvgPriceFullyScale": "0.07254", "openAvgPrice": 0.07254, "openAvgPriceFullyScale": "0.07254
+2026-10-27 16:48:33 fresh round t=1793090700000 age=214s cands=5
+2026-10-27 16:48:33 plan CVCUSDT 空 prob=0.4368 ref=0.0255 vol=161 margin~0.0821 tp=0.02507 sl=0.02563
+2026-10-27 16:48:33 skip ANIMEUSDT: maxLeverage 20 < 50
+2026-10-27 16:48:33 plan MUBARAKUSDT 空 prob=0.4404 ref=0.05242 vol=1 margin~0.1048 tp=0.05153 sl=0.05268
+2026-10-27 16:48:33 skip ZAMAUSDT: already held
+2026-10-27 16:48:33 skip KERNELUSDT: maxLeverage 20 < 50
+2026-10-27 16:48:46 opened CVCUSDT order=869984703020062720 entry=0.02534
+2026-10-27 16:48:46 position check CVCUSDT: {"success": true, "code": 0, "data": [{"positionId": 1527939643, "symbol": "CVC_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 161, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.02534, "holdAvgPriceFullyScale": "0.02534", "openAvgPrice": 0.02534, "openAvgPriceFullyScale": "0.0253
+2026-10-27 16:48:46 submit MUBARAKUSDT with TP failed: 2030 External order ID too long (max. 32 digit), retried without TP
+2026-10-27 16:48:46 submit MUBARAKUSDT failed: 510 Requests are too frequent, please try again later
+2026-10-27 16:53:24 fresh round t=1793091000000 age=204s cands=5
+2026-10-27 16:53:24 skip BABYUSDT: maxLeverage 20 < 50
+2026-10-27 16:53:24 skip ANIMEUSDT: maxLeverage 20 < 50
+2026-10-27 16:53:24 skip IOSTUSDT: maxLeverage 20 < 50
+2026-10-27 16:53:24 plan MUBARAKUSDT 空 prob=0.4418 ref=0.05241 vol=1 margin~0.1048 tp=0.05152 sl=0.05267
+2026-10-27 16:53:24 skip ZAMAUSDT: already held
+2026-10-27 16:53:26 submit MUBARAKUSDT with TP failed: 2030 External order ID too long (max. 32 digit), retried without TP
+2026-10-27 16:53:26 submit MUBARAKUSDT failed: 2030 External order ID too long (max. 32 digit)
+2026-10-27 16:54:20 contract detail loaded: 1179 symbols
+2026-10-27 16:55:57 get_asset failed: -1 None
+2026-10-27 16:55:57 trader started dry_run=False capital=0.0000 leverage=50x open=8
+2026-10-27 16:57:38 closed RUNEUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:39 closed EDUUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:40 closed QTUMUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:41 closed SANDUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:43 closed SAGAUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:44 closed ASTERUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:45 closed ZAMAUSDT (止盈/止损触发) pnl=None
+2026-10-27 16:57:46 closed CVCUSDT (止盈/止损触发) pnl=None
+2026-10-27 19:06:21 contract detail loaded: 1179 symbols
+2026-10-27 19:07:58 get_asset failed: -1 None
+2026-10-27 19:07:58 trader started dry_run=False capital=0.0000 leverage=50x open=1
+2026-10-27 19:07:58 round t=1793098800000 age=479s stale, skip
+2026-10-27 19:09:36 open_positions failed: -1 None, skip manage_exits this round
+2026-10-27 19:09:46 round t=1793099100000 age=286s stale, skip
+2026-10-27 19:11:24 open_positions failed: -1 None, skip manage_exits this round
+2026-10-27 19:13:11 open_positions failed: -1 None, skip manage_exits this round
+2026-10-27 19:14:59 open_positions failed: -1 None, skip manage_exits this round
+2026-10-27 19:15:09 round t=1793099400000 age=310s stale, skip
+2026-10-27 19:18:54 fresh round t=1793099700000 age=235s cands=5
+2026-10-27 19:18:54 daily stop hit, skip opening
+2026-10-27 19:19:57 contract detail loaded: 1179 symbols
+2026-10-27 19:19:58 capital equity=1.7107 available=1.6306
+2026-10-27 19:19:58 trader started dry_run=False capital=1.7107 leverage=50x open=1
+2026-10-27 19:23:30 fresh round t=1793100000000 age=211s cands=5
+2026-10-27 19:23:31 skip OPNUSDT: maxLeverage 25 < 50
+2026-10-27 19:23:31 skip INITUSDT: maxLeverage 20 < 50
+2026-10-27 19:23:31 plan CKBUSDT 空 prob=0.4432 ref=0.00138 vol=6 margin~0.1656 tp=0.0013565 sl=0.0013869
+2026-10-27 19:23:31 plan CHIPUSDT 空 prob=0.4443 ref=0.05339 vol=1 margin~0.1068 tp=0.05248 sl=0.05366
+2026-10-27 19:23:31 skip BREVUSDT: maxLeverage 20 < 50
+2026-10-27 19:23:43 opened CKBUSDT order=870023698225728000 entry=0.0013776
+2026-10-27 19:23:43 position check CKBUSDT: {"success": true, "code": 0, "data": [{"positionId": 1528015387, "symbol": "CKB_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 6, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.0013776, "holdAvgPriceFullyScale": "0.0013776", "openAvgPrice": 0.0013776, "openAvgPriceFullyScale": "0.
+2026-10-27 19:23:43 opened CHIPUSDT order=870023697479019200 entry=0.05281
+2026-10-27 19:23:43 position check CHIPUSDT: {"success": true, "code": 0, "data": [{"positionId": 1528015386, "symbol": "CHIP_USDT", "positionType": 2, "openType": 1, "state": 1, "holdVol": 1, "frozenVol": 0, "closeVol": 0, "holdAvgPrice": 0.05281, "holdAvgPriceFullyScale": "0.05281", "openAvgPrice": 0.05281, "openAvgPriceFullyScale": "0.05281
