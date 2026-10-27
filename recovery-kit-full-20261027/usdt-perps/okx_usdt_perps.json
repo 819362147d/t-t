@@ -1,0 +1,1447 @@
+[
+ {
+  "exchange": "okx",
+  "symbol": "BTC-USDT-SWAP",
+  "base": "BTC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ETH-USDT-SWAP",
+  "base": "ETH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OKB-USDT-SWAP",
+  "base": "OKB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SOL-USDT-SWAP",
+  "base": "SOL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DOGE-USDT-SWAP",
+  "base": "DOGE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "XRP-USDT-SWAP",
+  "base": "XRP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BCH-USDT-SWAP",
+  "base": "BCH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZEC-USDT-SWAP",
+  "base": "ZEC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "IRYS-USDT-SWAP",
+  "base": "IRYS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PEPE-USDT-SWAP",
+  "base": "PEPE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "0G-USDT-SWAP",
+  "base": "0G"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "1INCH-USDT-SWAP",
+  "base": "1INCH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "2Z-USDT-SWAP",
+  "base": "2Z"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "A-USDT-SWAP",
+  "base": "A"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AAVE-USDT-SWAP",
+  "base": "AAVE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ACH-USDT-SWAP",
+  "base": "ACH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ACT-USDT-SWAP",
+  "base": "ACT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ACU-USDT-SWAP",
+  "base": "ACU"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ADA-USDT-SWAP",
+  "base": "ADA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AEON-USDT-SWAP",
+  "base": "AEON"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AERO-USDT-SWAP",
+  "base": "AERO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AEVO-USDT-SWAP",
+  "base": "AEVO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AGLD-USDT-SWAP",
+  "base": "AGLD"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AI-USDT-SWAP",
+  "base": "AI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AIXBT-USDT-SWAP",
+  "base": "AIXBT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AKE-USDT-SWAP",
+  "base": "AKE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ALGO-USDT-SWAP",
+  "base": "ALGO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ALLO-USDT-SWAP",
+  "base": "ALLO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ANIME-USDT-SWAP",
+  "base": "ANIME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "APE-USDT-SWAP",
+  "base": "APE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "API3-USDT-SWAP",
+  "base": "API3"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "APR-USDT-SWAP",
+  "base": "APR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "APT-USDT-SWAP",
+  "base": "APT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AR-USDT-SWAP",
+  "base": "AR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ARB-USDT-SWAP",
+  "base": "ARB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ARKM-USDT-SWAP",
+  "base": "ARKM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ARX-USDT-SWAP",
+  "base": "ARX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ASTER-USDT-SWAP",
+  "base": "ASTER"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AT-USDT-SWAP",
+  "base": "AT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ATH-USDT-SWAP",
+  "base": "ATH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ATOM-USDT-SWAP",
+  "base": "ATOM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AUCTION-USDT-SWAP",
+  "base": "AUCTION"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AVAX-USDT-SWAP",
+  "base": "AVAX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AVNT-USDT-SWAP",
+  "base": "AVNT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AXIS-USDT-SWAP",
+  "base": "AXIS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AXS-USDT-SWAP",
+  "base": "AXS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "AZTEC-USDT-SWAP",
+  "base": "AZTEC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BABY-USDT-SWAP",
+  "base": "BABY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BAND-USDT-SWAP",
+  "base": "BAND"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BARD-USDT-SWAP",
+  "base": "BARD"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BASED-USDT-SWAP",
+  "base": "BASED"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BAT-USDT-SWAP",
+  "base": "BAT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BEAT-USDT-SWAP",
+  "base": "BEAT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BERA-USDT-SWAP",
+  "base": "BERA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BICO-USDT-SWAP",
+  "base": "BICO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BIGTIME-USDT-SWAP",
+  "base": "BIGTIME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BILL-USDT-SWAP",
+  "base": "BILL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BIO-USDT-SWAP",
+  "base": "BIO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BLEND-USDT-SWAP",
+  "base": "BLEND"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BLUR-USDT-SWAP",
+  "base": "BLUR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BNB-USDT-SWAP",
+  "base": "BNB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BOME-USDT-SWAP",
+  "base": "BOME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BONK-USDT-SWAP",
+  "base": "BONK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BRETT-USDT-SWAP",
+  "base": "BRETT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BREV-USDT-SWAP",
+  "base": "BREV"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BSB-USDT-SWAP",
+  "base": "BSB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "BTW-USDT-SWAP",
+  "base": "BTW"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CAP-USDT-SWAP",
+  "base": "CAP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CASHCAT-USDT-SWAP",
+  "base": "CASHCAT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CC-USDT-SWAP",
+  "base": "CC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CELO-USDT-SWAP",
+  "base": "CELO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CFX-USDT-SWAP",
+  "base": "CFX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CHIP-USDT-SWAP",
+  "base": "CHIP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CHZ-USDT-SWAP",
+  "base": "CHZ"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CNPY-USDT-SWAP",
+  "base": "CNPY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "COAI-USDT-SWAP",
+  "base": "COAI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "COMP-USDT-SWAP",
+  "base": "COMP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CORE-USDT-SWAP",
+  "base": "CORE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CP-USDT-SWAP",
+  "base": "CP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CRO-USDT-SWAP",
+  "base": "CRO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CRV-USDT-SWAP",
+  "base": "CRV"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CT-USDT-SWAP",
+  "base": "CT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "CVX-USDT-SWAP",
+  "base": "CVX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DASH-USDT-SWAP",
+  "base": "DASH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DGAI-USDT-SWAP",
+  "base": "DGAI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DNA-USDT-SWAP",
+  "base": "DNA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DOOD-USDT-SWAP",
+  "base": "DOOD"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DOS-USDT-SWAP",
+  "base": "DOS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DOT-USDT-SWAP",
+  "base": "DOT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DYDX-USDT-SWAP",
+  "base": "DYDX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "EDEN-USDT-SWAP",
+  "base": "EDEN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "EDGE-USDT-SWAP",
+  "base": "EDGE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "EGLD-USDT-SWAP",
+  "base": "EGLD"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "EIGEN-USDT-SWAP",
+  "base": "EIGEN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ENA-USDT-SWAP",
+  "base": "ENA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ENJ-USDT-SWAP",
+  "base": "ENJ"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ENS-USDT-SWAP",
+  "base": "ENS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ENSO-USDT-SWAP",
+  "base": "ENSO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ESP-USDT-SWAP",
+  "base": "ESP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ETC-USDT-SWAP",
+  "base": "ETC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ETHW-USDT-SWAP",
+  "base": "ETHW"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ETHFI-USDT-SWAP",
+  "base": "ETHFI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "F-USDT-SWAP",
+  "base": "F"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FARTCOIN-USDT-SWAP",
+  "base": "FARTCOIN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FET-USDT-SWAP",
+  "base": "FET"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FIL-USDT-SWAP",
+  "base": "FIL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FLOKI-USDT-SWAP",
+  "base": "FLOKI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FLOW-USDT-SWAP",
+  "base": "FLOW"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FLOCK-USDT-SWAP",
+  "base": "FLOCK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "FOGO-USDT-SWAP",
+  "base": "FOGO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GALA-USDT-SWAP",
+  "base": "GALA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GAS-USDT-SWAP",
+  "base": "GAS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GIGGLE-USDT-SWAP",
+  "base": "GIGGLE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GLM-USDT-SWAP",
+  "base": "GLM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GMT-USDT-SWAP",
+  "base": "GMT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GMX-USDT-SWAP",
+  "base": "GMX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GPS-USDT-SWAP",
+  "base": "GPS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GRASS-USDT-SWAP",
+  "base": "GRASS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GRT-USDT-SWAP",
+  "base": "GRT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GRVT-USDT-SWAP",
+  "base": "GRVT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "H-USDT-SWAP",
+  "base": "H"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "HBAR-USDT-SWAP",
+  "base": "HBAR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "HMSTR-USDT-SWAP",
+  "base": "HMSTR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "HOME-USDT-SWAP",
+  "base": "HOME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "HUMA-USDT-SWAP",
+  "base": "HUMA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "HYPE-USDT-SWAP",
+  "base": "HYPE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ICP-USDT-SWAP",
+  "base": "ICP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "IMX-USDT-SWAP",
+  "base": "IMX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "INIT-USDT-SWAP",
+  "base": "INIT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "INJ-USDT-SWAP",
+  "base": "INJ"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "IOST-USDT-SWAP",
+  "base": "IOST"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "IOTA-USDT-SWAP",
+  "base": "IOTA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "DATA-USDT-SWAP",
+  "base": "DATA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "JELLYJELLY-USDT-SWAP",
+  "base": "JELLYJELLY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "JTO-USDT-SWAP",
+  "base": "JTO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "JUP-USDT-SWAP",
+  "base": "JUP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KAITO-USDT-SWAP",
+  "base": "KAITO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KAT-USDT-SWAP",
+  "base": "KAT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KGEN-USDT-SWAP",
+  "base": "KGEN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KII-USDT-SWAP",
+  "base": "KII"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KITE-USDT-SWAP",
+  "base": "KITE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KMNO-USDT-SWAP",
+  "base": "KMNO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "KSM-USDT-SWAP",
+  "base": "KSM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LA-USDT-SWAP",
+  "base": "LA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LAB-USDT-SWAP",
+  "base": "LAB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LAYER-USDT-SWAP",
+  "base": "LAYER"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LDO-USDT-SWAP",
+  "base": "LDO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LIGHT-USDT-SWAP",
+  "base": "LIGHT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LINK-USDT-SWAP",
+  "base": "LINK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LINEA-USDT-SWAP",
+  "base": "LINEA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LIT-USDT-SWAP",
+  "base": "LIT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LPT-USDT-SWAP",
+  "base": "LPT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LQTY-USDT-SWAP",
+  "base": "LQTY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LTC-USDT-SWAP",
+  "base": "LTC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "LUNA-USDT-SWAP",
+  "base": "LUNA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MAGIC-USDT-SWAP",
+  "base": "MAGIC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MANA-USDT-SWAP",
+  "base": "MANA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MASK-USDT-SWAP",
+  "base": "MASK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ME-USDT-SWAP",
+  "base": "ME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MEGA-USDT-SWAP",
+  "base": "MEGA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MEME-USDT-SWAP",
+  "base": "MEME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MERL-USDT-SWAP",
+  "base": "MERL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "METIS-USDT-SWAP",
+  "base": "METIS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MET-USDT-SWAP",
+  "base": "MET"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MEW-USDT-SWAP",
+  "base": "MEW"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MINA-USDT-SWAP",
+  "base": "MINA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MMT-USDT-SWAP",
+  "base": "MMT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MON-USDT-SWAP",
+  "base": "MON"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MOODENG-USDT-SWAP",
+  "base": "MOODENG"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MORPHO-USDT-SWAP",
+  "base": "MORPHO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MOVE-USDT-SWAP",
+  "base": "MOVE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "MUBARAK-USDT-SWAP",
+  "base": "MUBARAK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NEAR-USDT-SWAP",
+  "base": "NEAR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NEIRO-USDT-SWAP",
+  "base": "NEIRO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NEO-USDT-SWAP",
+  "base": "NEO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NES-USDT-SWAP",
+  "base": "NES"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NIGHT-USDT-SWAP",
+  "base": "NIGHT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NMR-USDT-SWAP",
+  "base": "NMR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "NOT-USDT-SWAP",
+  "base": "NOT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "O-USDT-SWAP",
+  "base": "O"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OFC-USDT-SWAP",
+  "base": "OFC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OL-USDT-SWAP",
+  "base": "OL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ONDO-USDT-SWAP",
+  "base": "ONDO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ONE-USDT-SWAP",
+  "base": "ONE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ONT-USDT-SWAP",
+  "base": "ONT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OP-USDT-SWAP",
+  "base": "OP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OPG-USDT-SWAP",
+  "base": "OPG"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "OPN-USDT-SWAP",
+  "base": "OPN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ORDI-USDT-SWAP",
+  "base": "ORDI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ORDER-USDT-SWAP",
+  "base": "ORDER"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PARTI-USDT-SWAP",
+  "base": "PARTI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PENGU-USDT-SWAP",
+  "base": "PENGU"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PENDLE-USDT-SWAP",
+  "base": "PENDLE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PEOPLE-USDT-SWAP",
+  "base": "PEOPLE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PI-USDT-SWAP",
+  "base": "PI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PIEVERSE-USDT-SWAP",
+  "base": "PIEVERSE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PIPPIN-USDT-SWAP",
+  "base": "PIPPIN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PLUME-USDT-SWAP",
+  "base": "PLUME"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PNUT-USDT-SWAP",
+  "base": "PNUT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "POL-USDT-SWAP",
+  "base": "POL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PONS-USDT-SWAP",
+  "base": "PONS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "POPCAT-USDT-SWAP",
+  "base": "POPCAT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PROVE-USDT-SWAP",
+  "base": "PROVE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PROS-USDT-SWAP",
+  "base": "PROS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PUMP-USDT-SWAP",
+  "base": "PUMP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "PYTH-USDT-SWAP",
+  "base": "PYTH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "QTUM-USDT-SWAP",
+  "base": "QTUM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "QUANT-USDT-SWAP",
+  "base": "QUANT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RAVE-USDT-SWAP",
+  "base": "RAVE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RAY-USDT-SWAP",
+  "base": "RAY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RE-USDT-SWAP",
+  "base": "RE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RECALL-USDT-SWAP",
+  "base": "RECALL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RENDER-USDT-SWAP",
+  "base": "RENDER"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RESOLV-USDT-SWAP",
+  "base": "RESOLV"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RIVER-USDT-SWAP",
+  "base": "RIVER"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RLS-USDT-SWAP",
+  "base": "RLS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ROBO-USDT-SWAP",
+  "base": "ROBO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RSR-USDT-SWAP",
+  "base": "RSR"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "RVN-USDT-SWAP",
+  "base": "RVN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "S-USDT-SWAP",
+  "base": "S"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SAHARA-USDT-SWAP",
+  "base": "SAHARA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SAND-USDT-SWAP",
+  "base": "SAND"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SAPIEN-USDT-SWAP",
+  "base": "SAPIEN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SATS-USDT-SWAP",
+  "base": "SATS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SEI-USDT-SWAP",
+  "base": "SEI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SENT-USDT-SWAP",
+  "base": "SENT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SHELL-USDT-SWAP",
+  "base": "SHELL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SHIB-USDT-SWAP",
+  "base": "SHIB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SIGN-USDT-SWAP",
+  "base": "SIGN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SKY-USDT-SWAP",
+  "base": "SKY"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SLX-USDT-SWAP",
+  "base": "SLX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SNX-USDT-SWAP",
+  "base": "SNX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SOON-USDT-SWAP",
+  "base": "SOON"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SOPH-USDT-SWAP",
+  "base": "SOPH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SPACE-USDT-SWAP",
+  "base": "SPACE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SPK-USDT-SWAP",
+  "base": "SPK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SPX-USDT-SWAP",
+  "base": "SPX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SSV-USDT-SWAP",
+  "base": "SSV"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "STABLE-USDT-SWAP",
+  "base": "STABLE"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "STRK-USDT-SWAP",
+  "base": "STRK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "STX-USDT-SWAP",
+  "base": "STX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SUI-USDT-SWAP",
+  "base": "SUI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SUSHI-USDT-SWAP",
+  "base": "SUSHI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "SYRUP-USDT-SWAP",
+  "base": "SYRUP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TAO-USDT-SWAP",
+  "base": "TAO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "THETA-USDT-SWAP",
+  "base": "THETA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TIA-USDT-SWAP",
+  "base": "TIA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "GRAM-USDT-SWAP",
+  "base": "GRAM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRB-USDT-SWAP",
+  "base": "TRB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRIA-USDT-SWAP",
+  "base": "TRIA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRUMP-USDT-SWAP",
+  "base": "TRUMP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRUST-USDT-SWAP",
+  "base": "TRUST"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRUTH-USDT-SWAP",
+  "base": "TRUTH"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TRX-USDT-SWAP",
+  "base": "TRX"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "TURBO-USDT-SWAP",
+  "base": "TURBO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "UB-USDT-SWAP",
+  "base": "UB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "UMA-USDT-SWAP",
+  "base": "UMA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "UNI-USDT-SWAP",
+  "base": "UNI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "UP-USDT-SWAP",
+  "base": "UP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "USDC-USDT-SWAP",
+  "base": "USDC"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "USELESS-USDT-SWAP",
+  "base": "USELESS"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "VANA-USDT-SWAP",
+  "base": "VANA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "VIRTUAL-USDT-SWAP",
+  "base": "VIRTUAL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "VVV-USDT-SWAP",
+  "base": "VVV"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "W-USDT-SWAP",
+  "base": "W"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WAL-USDT-SWAP",
+  "base": "WAL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WCT-USDT-SWAP",
+  "base": "WCT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WET-USDT-SWAP",
+  "base": "WET"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WIF-USDT-SWAP",
+  "base": "WIF"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WLD-USDT-SWAP",
+  "base": "WLD"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WLFI-USDT-SWAP",
+  "base": "WLFI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "WOO-USDT-SWAP",
+  "base": "WOO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "XDP-USDT-SWAP",
+  "base": "XDP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "XLM-USDT-SWAP",
+  "base": "XLM"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "XPL-USDT-SWAP",
+  "base": "XPL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "XTZ-USDT-SWAP",
+  "base": "XTZ"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "YB-USDT-SWAP",
+  "base": "YB"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "YFI-USDT-SWAP",
+  "base": "YFI"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "YGG-USDT-SWAP",
+  "base": "YGG"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZAMA-USDT-SWAP",
+  "base": "ZAMA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZBT-USDT-SWAP",
+  "base": "ZBT"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZEN-USDT-SWAP",
+  "base": "ZEN"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZETA-USDT-SWAP",
+  "base": "ZETA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZIL-USDT-SWAP",
+  "base": "ZIL"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZK-USDT-SWAP",
+  "base": "ZK"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZKP-USDT-SWAP",
+  "base": "ZKP"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZORA-USDT-SWAP",
+  "base": "ZORA"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZRO-USDT-SWAP",
+  "base": "ZRO"
+ },
+ {
+  "exchange": "okx",
+  "symbol": "ZRX-USDT-SWAP",
+  "base": "ZRX"
+ }
+]

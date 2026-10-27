@@ -1,0 +1,2857 @@
+[
+ {
+  "exchange": "mexc",
+  "symbol": "BTC_USDT",
+  "base": "BTC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ETH_USDT",
+  "base": "ETH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CAP_USDT",
+  "base": "CAP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ENA_USDT",
+  "base": "ENA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "APR_USDT",
+  "base": "APR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KIMCHI_USDT",
+  "base": "KIMCHI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NEAR_USDT",
+  "base": "NEAR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IRYS_USDT",
+  "base": "IRYS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZEC_USDT",
+  "base": "ZEC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SOL_USDT",
+  "base": "SOL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XRP_USDT",
+  "base": "XRP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JCT_USDT",
+  "base": "JCT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SUI_USDT",
+  "base": "SUI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "QNT_USDT",
+  "base": "QNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PEPE_USDT",
+  "base": "PEPE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WLD_USDT",
+  "base": "WLD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HOOKED_USDT",
+  "base": "HOOKED"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TAO_USDT",
+  "base": "TAO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HYPE_USDT",
+  "base": "HYPE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOOD_USDT",
+  "base": "DOOD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "T_USDT",
+  "base": "T"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ORDER_USDT",
+  "base": "ORDER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RLS_USDT",
+  "base": "RLS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CLAUDIA_USDT",
+  "base": "CLAUDIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BR_USDT",
+  "base": "BR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LINK_USDT",
+  "base": "LINK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "INJ_USDT",
+  "base": "INJ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "Q_USDT",
+  "base": "Q"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOGE_USDT",
+  "base": "DOGE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DODO_USDT",
+  "base": "DODO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARIA_USDT",
+  "base": "ARIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ERA_USDT",
+  "base": "ERA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ADA_USDT",
+  "base": "ADA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BMT_USDT",
+  "base": "BMT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AVAX_USDT",
+  "base": "AVAX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AGT_USDT",
+  "base": "AGT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ONDO_USDT",
+  "base": "ONDO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARB_USDT",
+  "base": "ARB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BTW_USDT",
+  "base": "BTW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NIL_USDT",
+  "base": "NIL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOT_USDT",
+  "base": "DOT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SKYAI_USDT",
+  "base": "SKYAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BNB_USDT",
+  "base": "BNB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "UNI_USDT",
+  "base": "UNI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AAVE_USDT",
+  "base": "AAVE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PUMPFUN_USDT",
+  "base": "PUMPFUN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LIGHT_USDT",
+  "base": "LIGHT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BIRB_USDT",
+  "base": "BIRB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AXIS_USDT",
+  "base": "AXIS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TIA_USDT",
+  "base": "TIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "USELESS_USDT",
+  "base": "USELESS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BULLA_USDT",
+  "base": "BULLA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LIT_USDT",
+  "base": "LIT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XMR_USDT",
+  "base": "XMR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BATON_USDT",
+  "base": "BATON"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "APT_USDT",
+  "base": "APT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SI_USDT",
+  "base": "SI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LTC_USDT",
+  "base": "LTC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AKE_USDT",
+  "base": "AKE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HBAR_USDT",
+  "base": "HBAR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GRASS_USDT",
+  "base": "GRASS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TA_USDT",
+  "base": "TA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DASH_USDT",
+  "base": "DASH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XLM_USDT",
+  "base": "XLM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NEX_USDT",
+  "base": "NEX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FARTCOIN_USDT",
+  "base": "FARTCOIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VVV_USDT",
+  "base": "VVV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FET_USDT",
+  "base": "FET"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PYTH_USDT",
+  "base": "PYTH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ICP_USDT",
+  "base": "ICP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SEI_USDT",
+  "base": "SEI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STRK_USDT",
+  "base": "STRK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AGENCY_USDT",
+  "base": "AGENCY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FILECOIN_USDT",
+  "base": "FILECOIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COMP_USDT",
+  "base": "COMP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ASTER_USDT",
+  "base": "ASTER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OP_USDT",
+  "base": "OP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DARK_USDT",
+  "base": "DARK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JUP_USDT",
+  "base": "JUP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZRO_USDT",
+  "base": "ZRO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DNA_USDT",
+  "base": "DNA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "REZ_USDT",
+  "base": "REZ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SHIB_USDT",
+  "base": "SHIB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CHIP_USDT",
+  "base": "CHIP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TAG_USDT",
+  "base": "TAG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOS_USDT",
+  "base": "DOS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BCH_USDT",
+  "base": "BCH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RT_USDT",
+  "base": "RT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BEAMX_USDT",
+  "base": "BEAMX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PENGU_USDT",
+  "base": "PENGU"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CT_USDT",
+  "base": "CT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ETHFI_USDT",
+  "base": "ETHFI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LAB_USDT",
+  "base": "LAB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MAGMA_USDT",
+  "base": "MAGMA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PREDICT_USDT",
+  "base": "PREDICT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RENDER_USDT",
+  "base": "RENDER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PHA_USDT",
+  "base": "PHA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BABY_USDT",
+  "base": "BABY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PTB_USDT",
+  "base": "PTB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STX_USDT",
+  "base": "STX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "INIT_USDT",
+  "base": "INIT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EPIC_USDT",
+  "base": "EPIC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ATOM_USDT",
+  "base": "ATOM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SIREN_USDT",
+  "base": "SIREN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "UAI_USDT",
+  "base": "UAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "1000BONK_USDT",
+  "base": "1000BONK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WIF_USDT",
+  "base": "WIF"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SAND_USDT",
+  "base": "SAND"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XPL_USDT",
+  "base": "XPL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRUMPOFFICIAL_USDT",
+  "base": "TRUMPOFFICIAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALGO_USDT",
+  "base": "ALGO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CATE_USDT",
+  "base": "CATE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CRV_USDT",
+  "base": "CRV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SOONNETWORK_USDT",
+  "base": "SOONNETWORK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STONK_USDT",
+  "base": "STONK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PI_USDT",
+  "base": "PI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZCAT_USDT",
+  "base": "ZCAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GTC_USDT",
+  "base": "GTC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WANGCHAI_USDT",
+  "base": "WANGCHAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BEAT_USDT",
+  "base": "BEAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VET_USDT",
+  "base": "VET"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LDO_USDT",
+  "base": "LDO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BAT_USDT",
+  "base": "BAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BILL_USDT",
+  "base": "BILL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RIVER_USDT",
+  "base": "RIVER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SYN_USDT",
+  "base": "SYN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JASMY_USDT",
+  "base": "JASMY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "US_USDT",
+  "base": "US"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AERO_USDT",
+  "base": "AERO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IOST_USDT",
+  "base": "IOST"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PLAY_USDT",
+  "base": "PLAY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WLFI_USDT",
+  "base": "WLFI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ANSEM_USDT",
+  "base": "ANSEM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SPX_USDT",
+  "base": "SPX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "POLYX_USDT",
+  "base": "POLYX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "POWER_USDT",
+  "base": "POWER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIGENSYN_USDT",
+  "base": "AIGENSYN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CLANKER_USDT",
+  "base": "CLANKER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AVA_USDT",
+  "base": "AVA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "M_USDT",
+  "base": "M"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARK_USDT",
+  "base": "ARK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GALA_USDT",
+  "base": "GALA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KAS_USDT",
+  "base": "KAS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IN_USDT",
+  "base": "IN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VIRTUAL_USDT",
+  "base": "VIRTUAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BREV_USDT",
+  "base": "BREV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GRVT_USDT",
+  "base": "GRVT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JTO_USDT",
+  "base": "JTO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "USUAL_USDT",
+  "base": "USUAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CNPY_USDT",
+  "base": "CNPY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RLC_USDT",
+  "base": "RLC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EIGEN_USDT",
+  "base": "EIGEN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "4STOCK_USDT",
+  "base": "4STOCK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RAY_USDT",
+  "base": "RAY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOPE_USDT",
+  "base": "DOPE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GRAM_USDT",
+  "base": "GRAM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLOKI_USDT",
+  "base": "FLOKI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SOPH_USDT",
+  "base": "SOPH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AT_USDT",
+  "base": "AT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRX_USDT",
+  "base": "TRX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALT_USDT",
+  "base": "ALT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KAT_USDT",
+  "base": "KAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PENDLE_USDT",
+  "base": "PENDLE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "APE_USDT",
+  "base": "APE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BTR_USDT",
+  "base": "BTR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FOLKS_USDT",
+  "base": "FOLKS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LONGXIA_USDT",
+  "base": "LONGXIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KAVA_USDT",
+  "base": "KAVA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LUNC_USDT",
+  "base": "LUNC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ANKR_USDT",
+  "base": "ANKR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "UP_USDT",
+  "base": "UP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LSK_USDT",
+  "base": "LSK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ICNT_USDT",
+  "base": "ICNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GMX_USDT",
+  "base": "GMX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "METIS_USDT",
+  "base": "METIS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "POL_USDT",
+  "base": "POL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VELVET_USDT",
+  "base": "VELVET"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZKSYNC_USDT",
+  "base": "ZKSYNC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XEC_USDT",
+  "base": "XEC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ETC_USDT",
+  "base": "ETC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARCSOL_USDT",
+  "base": "ARCSOL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ORDI_USDT",
+  "base": "ORDI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STEEM_USDT",
+  "base": "STEEM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PLUME_USDT",
+  "base": "PLUME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MITO_USDT",
+  "base": "MITO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GMBSC_USDT",
+  "base": "GMBSC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BLESS_USDT",
+  "base": "BLESS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CLAUS_USDT",
+  "base": "CLAUS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZEN_USDT",
+  "base": "ZEN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LUMIA_USDT",
+  "base": "LUMIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RUNE_USDT",
+  "base": "RUNE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JEANPHIL_USDT",
+  "base": "JEANPHIL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "POPCAT_USDT",
+  "base": "POPCAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HUMA_USDT",
+  "base": "HUMA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CYS_USDT",
+  "base": "CYS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "S_USDT",
+  "base": "S"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NIGHT_USDT",
+  "base": "NIGHT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZIL_USDT",
+  "base": "ZIL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARKM_USDT",
+  "base": "ARKM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "W_USDT",
+  "base": "W"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MORPHO_USDT",
+  "base": "MORPHO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MOVR_USDT",
+  "base": "MOVR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BOME_USDT",
+  "base": "BOME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CTR_USDT",
+  "base": "CTR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XNY_USDT",
+  "base": "XNY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CRO_USDT",
+  "base": "CRO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "1000RATS_USDT",
+  "base": "1000RATS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "YB_USDT",
+  "base": "YB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TAC_USDT",
+  "base": "TAC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NAORIS_USDT",
+  "base": "NAORIS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DUSK_USDT",
+  "base": "DUSK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MEGA_USDT",
+  "base": "MEGA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GRT_USDT",
+  "base": "GRT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RE_USDT",
+  "base": "RE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ONE_USDT",
+  "base": "ONE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COAI_USDT",
+  "base": "COAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CHZ_USDT",
+  "base": "CHZ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MINA_USDT",
+  "base": "MINA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ELSA_USDT",
+  "base": "ELSA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "THETA_USDT",
+  "base": "THETA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SAGA_USDT",
+  "base": "SAGA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ANIME_USDT",
+  "base": "ANIME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MONAD_USDT",
+  "base": "MONAD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MTL_USDT",
+  "base": "MTL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZORA_USDT",
+  "base": "ZORA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RAVE_USDT",
+  "base": "RAVE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZEREBRO_USDT",
+  "base": "ZEREBRO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LYN_USDT",
+  "base": "LYN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TOSHI_USDT",
+  "base": "TOSHI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TREE_USDT",
+  "base": "TREE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRIA_USDT",
+  "base": "TRIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CENT_USDT",
+  "base": "CENT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SENT_USDT",
+  "base": "SENT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MAGIC_USDT",
+  "base": "MAGIC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BIGTIME_USDT",
+  "base": "BIGTIME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TAKE_USDT",
+  "base": "TAKE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EGLD_USDT",
+  "base": "EGLD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EDU_USDT",
+  "base": "EDU"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JST_USDT",
+  "base": "JST"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRB_USDT",
+  "base": "TRB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MUBARAK_USDT",
+  "base": "MUBARAK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "B_USDT",
+  "base": "B"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "A_USDT",
+  "base": "A"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SQD_USDT",
+  "base": "SQD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COTI_USDT",
+  "base": "COTI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOGS_USDT",
+  "base": "DOGS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MOODENG_USDT",
+  "base": "MOODENG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MYX_USDT",
+  "base": "MYX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DYDX_USDT",
+  "base": "DYDX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DEXE_USDT",
+  "base": "DEXE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KMNO_USDT",
+  "base": "KMNO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OFC_USDT",
+  "base": "OFC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CFX_USDT",
+  "base": "CFX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIN_USDT",
+  "base": "AIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BLUR_USDT",
+  "base": "BLUR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NMR_USDT",
+  "base": "NMR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PIPPIN_USDT",
+  "base": "PIPPIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GIGGLE_USDT",
+  "base": "GIGGLE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AR_USDT",
+  "base": "AR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HOLO_USDT",
+  "base": "HOLO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BASED_USDT",
+  "base": "BASED"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RSR_USDT",
+  "base": "RSR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZAMA_USDT",
+  "base": "ZAMA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ATH_USDT",
+  "base": "ATH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WCT_USDT",
+  "base": "WCT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ON_USDT",
+  "base": "ON"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FIGHT_USDT",
+  "base": "FIGHT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DGAI_USDT",
+  "base": "DGAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LUNANEW_USDT",
+  "base": "LUNANEW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LA_USDT",
+  "base": "LA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NEWT_USDT",
+  "base": "NEWT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MET_USDT",
+  "base": "MET"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "O_USDT",
+  "base": "O"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MARSCOIN_USDT",
+  "base": "MARSCOIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WOO_USDT",
+  "base": "WOO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CAKE_USDT",
+  "base": "CAKE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EDGE_USDT",
+  "base": "EDGE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BSB_USDT",
+  "base": "BSB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IOTX_USDT",
+  "base": "IOTX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BB_USDT",
+  "base": "BB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BICO_USDT",
+  "base": "BICO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BERA_USDT",
+  "base": "BERA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZBT_USDT",
+  "base": "ZBT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ORCA_USDT",
+  "base": "ORCA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MASK_USDT",
+  "base": "MASK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CORE_USDT",
+  "base": "CORE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DYM_USDT",
+  "base": "DYM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TUT_USDT",
+  "base": "TUT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CC_USDT",
+  "base": "CC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CVC_USDT",
+  "base": "CVC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AXS_USDT",
+  "base": "AXS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IMX_USDT",
+  "base": "IMX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KAITO_USDT",
+  "base": "KAITO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ESPORTS_USDT",
+  "base": "ESPORTS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ENJ_USDT",
+  "base": "ENJ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SNX_USDT",
+  "base": "SNX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ROSE_USDT",
+  "base": "ROSE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BANK_USDT",
+  "base": "BANK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RECALL_USDT",
+  "base": "RECALL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SUSHI_USDT",
+  "base": "SUSHI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MNT_USDT",
+  "base": "MNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KAIA_USDT",
+  "base": "KAIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EVAA_USDT",
+  "base": "EVAA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XTZ_USDT",
+  "base": "XTZ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MANA_USDT",
+  "base": "MANA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ACE_USDT",
+  "base": "ACE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "INX_USDT",
+  "base": "INX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARX_USDT",
+  "base": "ARX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CASHCAT_USDT",
+  "base": "CASHCAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLOW_USDT",
+  "base": "FLOW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SYRUP_USDT",
+  "base": "SYRUP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "H_USDT",
+  "base": "H"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XPIN_USDT",
+  "base": "XPIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SKY_USDT",
+  "base": "SKY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CVX_USDT",
+  "base": "CVX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IO_USDT",
+  "base": "IO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BLUAI_USDT",
+  "base": "BLUAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRUTH_USDT",
+  "base": "TRUTH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HNT_USDT",
+  "base": "HNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MEW_USDT",
+  "base": "MEW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AVNT_USDT",
+  "base": "AVNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WHUF_USDT",
+  "base": "WHUF"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CYBER_USDT",
+  "base": "CYBER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RED_USDT",
+  "base": "RED"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WAL_USDT",
+  "base": "WAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "USTC_USDT",
+  "base": "USTC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZKC_USDT",
+  "base": "ZKC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BSV_USDT",
+  "base": "BSV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STORJ_USDT",
+  "base": "STORJ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ENS_USDT",
+  "base": "ENS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PROM_USDT",
+  "base": "PROM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RVN_USDT",
+  "base": "RVN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AXL_USDT",
+  "base": "AXL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PARTI_USDT",
+  "base": "PARTI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HAEDAL_USDT",
+  "base": "HAEDAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KGEN_USDT",
+  "base": "KGEN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALLO_USDT",
+  "base": "ALLO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IOTA_USDT",
+  "base": "IOTA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PUFFER_USDT",
+  "base": "PUFFER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HEI_USDT",
+  "base": "HEI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AEON1_USDT",
+  "base": "AEON1"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "USDC_USDT",
+  "base": "USDC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CFG_USDT",
+  "base": "CFG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ROBO_USDT",
+  "base": "ROBO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "4_USDT",
+  "base": "4"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CLO_USDT",
+  "base": "CLO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WET_USDT",
+  "base": "WET"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AKT_USDT",
+  "base": "AKT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SOLV_USDT",
+  "base": "SOLV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIOT_USDT",
+  "base": "AIOT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ID_USDT",
+  "base": "ID"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "F_USDT",
+  "base": "F"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "YFI_USDT",
+  "base": "YFI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LPT_USDT",
+  "base": "LPT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TURBO_USDT",
+  "base": "TURBO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XAI_USDT",
+  "base": "XAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HEMI_USDT",
+  "base": "HEMI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NIULAI_USDT",
+  "base": "NIULAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DEEP_USDT",
+  "base": "DEEP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KERNEL_USDT",
+  "base": "KERNEL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STBL_USDT",
+  "base": "STBL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NOT_USDT",
+  "base": "NOT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BIO_USDT",
+  "base": "BIO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CKB_USDT",
+  "base": "CKB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PORTAL_USDT",
+  "base": "PORTAL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XAN_USDT",
+  "base": "XAN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AGLD_USDT",
+  "base": "AGLD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CELO_USDT",
+  "base": "CELO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FHE_USDT",
+  "base": "FHE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIO_USDT",
+  "base": "AIO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MANTRA_USDT",
+  "base": "MANTRA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NEO_USDT",
+  "base": "NEO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HIVE_USDT",
+  "base": "HIVE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AGI_USDT",
+  "base": "AGI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PIXEL_USDT",
+  "base": "PIXEL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BRETT_USDT",
+  "base": "BRETT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OPENLEDGER_USDT",
+  "base": "OPENLEDGER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BAND_USDT",
+  "base": "BAND"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "C98_USDT",
+  "base": "C98"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SATS_USDT",
+  "base": "SATS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OGN_USDT",
+  "base": "OGN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ACH_USDT",
+  "base": "ACH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PEOPLE_USDT",
+  "base": "PEOPLE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MEME_USDT",
+  "base": "MEME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "2Z_USDT",
+  "base": "2Z"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SPELL_USDT",
+  "base": "SPELL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "API3_USDT",
+  "base": "API3"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CGPT_USDT",
+  "base": "CGPT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NEIROCTO_USDT",
+  "base": "NEIROCTO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SAHARA_USDT",
+  "base": "SAHARA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GAS_USDT",
+  "base": "GAS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MANTA_USDT",
+  "base": "MANTA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIXBT_USDT",
+  "base": "AIXBT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HANA_USDT",
+  "base": "HANA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ENSO_USDT",
+  "base": "ENSO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SUPER_USDT",
+  "base": "SUPER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PNUT_USDT",
+  "base": "PNUT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AVAAI_USDT",
+  "base": "AVAAI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MELANIA_USDT",
+  "base": "MELANIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LINEA_USDT",
+  "base": "LINEA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PEAQ_USDT",
+  "base": "PEAQ"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BLEND_USDT",
+  "base": "BLEND"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CHR_USDT",
+  "base": "CHR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "YGG_USDT",
+  "base": "YGG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BEL_USDT",
+  "base": "BEL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "1000000BABYDOGE_USDT",
+  "base": "1000000BABYDOGE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MOVE_USDT",
+  "base": "MOVE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VANA_USDT",
+  "base": "VANA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLUID_USDT",
+  "base": "FLUID"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EUL_USDT",
+  "base": "EUL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CTK_USDT",
+  "base": "CTK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SCR_USDT",
+  "base": "SCR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SKR_USDT",
+  "base": "SKR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SUN_USDT",
+  "base": "SUN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TWT_USDT",
+  "base": "TWT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DATA_USDT",
+  "base": "DATA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MERL_USDT",
+  "base": "MERL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GRIFFAIN_USDT",
+  "base": "GRIFFAIN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GPS_USDT",
+  "base": "GPS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ACU_USDT",
+  "base": "ACU"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ONT_USDT",
+  "base": "ONT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SAFE_USDT",
+  "base": "SAFE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SWARMS_USDT",
+  "base": "SWARMS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "0G_USDT",
+  "base": "0G"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STABLE_USDT",
+  "base": "STABLE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MAVIA_USDT",
+  "base": "MAVIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HMSTR_USDT",
+  "base": "HMSTR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HYPER_USDT",
+  "base": "HYPER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KITE_USDT",
+  "base": "KITE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FOGO_USDT",
+  "base": "FOGO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KSM_USDT",
+  "base": "KSM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HOT_USDT",
+  "base": "HOT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CP_USDT",
+  "base": "CP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VELO_USDT",
+  "base": "VELO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "POWR_USDT",
+  "base": "POWR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AEVO_USDT",
+  "base": "AEVO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "B2_USDT",
+  "base": "B2"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLUX_USDT",
+  "base": "FLUX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ASTR_USDT",
+  "base": "ASTR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XVG_USDT",
+  "base": "XVG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZETA_USDT",
+  "base": "ZETA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "APEX_USDT",
+  "base": "APEX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CHILLGUY_USDT",
+  "base": "CHILLGUY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AIA_USDT",
+  "base": "AIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COLLECT_USDT",
+  "base": "COLLECT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OPG_USDT",
+  "base": "OPG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "EDEN_USDT",
+  "base": "EDEN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ILV_USDT",
+  "base": "ILV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XDP_USDT",
+  "base": "XDP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CETUS_USDT",
+  "base": "CETUS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VTHO_USDT",
+  "base": "VTHO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DRIFT_USDT",
+  "base": "DRIFT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "1000000MOG_USDT",
+  "base": "1000000MOG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TAIKO_USDT",
+  "base": "TAIKO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLOCK_USDT",
+  "base": "FLOCK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FORM_USDT",
+  "base": "FORM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "UB_USDT",
+  "base": "UB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "QTUM_USDT",
+  "base": "QTUM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ARPA_USDT",
+  "base": "ARPA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CTSI_USDT",
+  "base": "CTSI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "C_USDT",
+  "base": "C"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SOMI_USDT",
+  "base": "SOMI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OPN_USDT",
+  "base": "OPN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CELR_USDT",
+  "base": "CELR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ETHW_USDT",
+  "base": "ETHW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "G_USDT",
+  "base": "G"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CATI_USDT",
+  "base": "CATI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SONIC_USDT",
+  "base": "SONIC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SXT_USDT",
+  "base": "SXT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HOME_USDT",
+  "base": "HOME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "IDOL_USDT",
+  "base": "IDOL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PRL_USDT",
+  "base": "PRL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SKL_USDT",
+  "base": "SKL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "1INCH_USDT",
+  "base": "1INCH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MAV_USDT",
+  "base": "MAV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MOCA_USDT",
+  "base": "MOCA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OL_USDT",
+  "base": "OL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FF_USDT",
+  "base": "FF"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRUST_USDT",
+  "base": "TRUST"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GWEI_USDT",
+  "base": "GWEI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GMT_USDT",
+  "base": "GMT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TNSR_USDT",
+  "base": "TNSR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PIEVERSE_USDT",
+  "base": "PIEVERSE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ACT_USDT",
+  "base": "ACT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GUN_USDT",
+  "base": "GUN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NXPC_USDT",
+  "base": "NXPC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AZTEC_USDT",
+  "base": "AZTEC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZRX_USDT",
+  "base": "ZRX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "UMA_USDT",
+  "base": "UMA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AUCTION_USDT",
+  "base": "AUCTION"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RARE_USDT",
+  "base": "RARE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LAYER_USDT",
+  "base": "LAYER"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BAS_USDT",
+  "base": "BAS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BARD_USDT",
+  "base": "BARD"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TLM_USDT",
+  "base": "TLM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RIF_USDT",
+  "base": "RIF"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GLM_USDT",
+  "base": "GLM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GOAT_USDT",
+  "base": "GOAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TST_USDT",
+  "base": "TST"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "AWE_USDT",
+  "base": "AWE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MMT_USDT",
+  "base": "MMT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GUA_USDT",
+  "base": "GUA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SLX_USDT",
+  "base": "SLX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OKB_USDT",
+  "base": "OKB"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALPINE_USDT",
+  "base": "ALPINE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LISTA_USDT",
+  "base": "LISTA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COW_USDT",
+  "base": "COW"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "THE_USDT",
+  "base": "THE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SPK_USDT",
+  "base": "SPK"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CROSS_USDT",
+  "base": "CROSS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MIRA_USDT",
+  "base": "MIRA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NOM_USDT",
+  "base": "NOM"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BIANRENSHENG_USDT",
+  "base": "BIANRENSHENG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KNC_USDT",
+  "base": "KNC"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALICE_USDT",
+  "base": "ALICE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SANTOS_USDT",
+  "base": "SANTOS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ME_USDT",
+  "base": "ME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KOMA_USDT",
+  "base": "KOMA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BROCCOLI_USDT",
+  "base": "BROCCOLI"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BROCCOLIF3B_USDT",
+  "base": "BROCCOLIF3B"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STO_USDT",
+  "base": "STO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TURTLE_USDT",
+  "base": "TURTLE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SLP_USDT",
+  "base": "SLP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JELLYJELLY_USDT",
+  "base": "JELLYJELLY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TOWNS_USDT",
+  "base": "TOWNS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "TRADOOR_USDT",
+  "base": "TRADOOR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZKP_USDT",
+  "base": "ZKP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FRAX_USDT",
+  "base": "FRAX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ESP_USDT",
+  "base": "ESP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "STAR_USDT",
+  "base": "STAR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CAT_USDT",
+  "base": "CAT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DIA_USDT",
+  "base": "DIA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "COOKIE_USDT",
+  "base": "COOKIE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ZEST_USDT",
+  "base": "ZEST"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BANANA_USDT",
+  "base": "BANANA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SHELL_USDT",
+  "base": "SHELL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SIGN_USDT",
+  "base": "SIGN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SPORTFUN_USDT",
+  "base": "SPORTFUN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PHAROS_USDT",
+  "base": "PHAROS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FIDA_USDT",
+  "base": "FIDA"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PUNDIX_USDT",
+  "base": "PUNDIX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CARV_USDT",
+  "base": "CARV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RESOLV_USDT",
+  "base": "RESOLV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SFP_USDT",
+  "base": "SFP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "FLR_USDT",
+  "base": "FLR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SSV_USDT",
+  "base": "SSV"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "LQTY_USDT",
+  "base": "LQTY"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "OG_USDT",
+  "base": "OG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BNT_USDT",
+  "base": "BNT"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BAN_USDT",
+  "base": "BAN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "BANANAS31_USDT",
+  "base": "BANANAS31"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "PROVE_USDT",
+  "base": "PROVE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "KII_USDT",
+  "base": "KII"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "JOE_USDT",
+  "base": "JOE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "GENIUS_USDT",
+  "base": "GENIUS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "NES_USDT",
+  "base": "NES"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WAXP_USDT",
+  "base": "WAXP"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "XVS_USDT",
+  "base": "XVS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ONG_USDT",
+  "base": "ONG"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "DOLO_USDT",
+  "base": "DOLO"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALCH_USDT",
+  "base": "ALCH"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ALL_USDT",
+  "base": "ALL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SAPIEN_USDT",
+  "base": "SAPIEN"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "WOTAMALAILE_USDT",
+  "base": "WOTAMALAILE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "RPL_USDT",
+  "base": "RPL"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "ASR_USDT",
+  "base": "ASR"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "VELODROME_USDT",
+  "base": "VELODROME"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "MPLX_USDT",
+  "base": "MPLX"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "SPACE_USDT",
+  "base": "SPACE"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "CHEEMS_USDT",
+  "base": "CHEEMS"
+ },
+ {
+  "exchange": "mexc",
+  "symbol": "HAJIMI_USDT",
+  "base": "HAJIMI"
+ }
+]
