@@ -1,0 +1,224 @@
+#!/usr/bin/env python3
+"""实盘执行路径（默认禁用，main.py 三重门通过后才允许构造）。
+
+三重门（缺一拒绝启动，见 main.py）：环境变量 MEXC_ACCESS_KEY /
+MEXC_SECRET_KEY 均存在 + --live + --i-understand-live-risk。
+密钥只从环境变量读进内存，不落盘、不进日志、不进状态文件。
+
+执行口径沿用旧 daemon：限价贴买卖一价、未成交撤单重开最多 3 次、
+TP/SL 下单时附带、信号新鲜期 240 秒内才下单；并在此之上加本项目硬规则：
+R1 比值门 / R2 爆仓缓冲门（开仓前估算校验 + 成交后用真实爆仓价复核）/
+R4 摩擦门（每次提交前用最新盘口复检，拦下就不提交）。
+
+记账说明（诚实边界）：开仓记录写 runtime/live_state.json；
+TP/SL 由交易所触发平仓后，本客户端没有成交历史对账接口，
+平仓盈亏不在本地编造数字——记入 unreconciled_closes 并 Bark 提醒
+去 MEXC 成交历史对账，day_realized 不计未对账交易（旧 daemon 把
+pnl=None 混进账本导致日损停手机制失效，这里明确区分）。
+本模块从未在本次交付中被实测运行（任务禁止测试实盘模式）。
+"""
+import json
+import os
+import time
+from concurrent.futures import ThreadPoolExecutor
+
+import config
+import risk
+from mexc_client import (calc_vol, cancel_order, get_asset,
+                         get_ticker, open_positions, submit_limit)
+
+# MEXC openType: 1 = 逐仓 (isolated), 与旧 daemon 口径一致。
+# 原构建误从 mexc_client 导入此常量（客户端并无此名），实盘首次启动时才暴露，
+# 2026-11-01 修复为本地定义。
+OPEN_TYPE = 1
+
+LIVE_STATE_FILE = os.path.join(config.RUNTIME_DIR, "live_state.json")
+
+
+class LiveTrader:
+    def __init__(self, ak, sk, log_fn=print, bark_fn=None):
+        if not ak or not sk:
+            raise RuntimeError("live refused: missing API keys in environment")
+        self.ak, self.sk = ak, sk
+        self.log = log_fn
+        self.bark_fn = bark_fn
+        self.state = self._load()
+        self.capital = 0.0
+
+    def _load(self):
+        try:
+            with open(LIVE_STATE_FILE) as f:
+                return json.load(f)
+        except Exception:
+            return {"open_trades": {}, "unreconciled_closes": [],
+                    "day": time.strftime("%Y-%m-%d"), "day_realized": 0.0}
+
+    def _save(self):
+        os.makedirs(os.path.dirname(LIVE_STATE_FILE), exist_ok=True)
+        tmp = LIVE_STATE_FILE + ".tmp"
+        with open(tmp, "w") as f:
+            json.dump(self.state, f, ensure_ascii=False, indent=1)
+        os.replace(tmp, LIVE_STATE_FILE)
+
+    def sync_capital(self):
+        r = get_asset(self.ak, self.sk, "USDT")
+        if r.get("success"):
+            d = r["data"]
+            self.capital = float(d.get("equity", 0) or 0)
+            self.log("live capital equity=%.4f available=%.4f"
+                     % (self.capital,
+                        float(d.get("availableBalance", 0) or 0)))
+        else:
+            self.log("live get_asset failed: %s %s" % (r.get("code"),
+                                                       r.get("message")))
+        return self.capital
+
+    def maybe_open(self, round_t, signals, details):
+        """signals: [{symbol, dir, prob, close}]；details: {symbol: detail}。
+        与纸面同一套硬规则，全部通过才提交限价单。"""
+        if self.capital <= 0:
+            self.log("live: capital unknown (0), skip opening")
+            return []
+        if risk.daily_stop_hit(self.state.get("day_realized", 0.0),
+                               self.capital):
+            self.log("live: daily stop hit, skip opening")
+            return []
+        held = {t["symbol"] for t in self.state["open_trades"].values()}
+        plans = []
+        for s in signals:
+            sym = s["symbol"]
+            if sym in held:
+                continue
+            det = details.get(sym)
+            if det is None:
+                continue
+            if config.LEVERAGE > int(det.get("maxLeverage", 0) or 0):
+                self.log("live skip %s: maxLeverage < %d" % (sym, config.LEVERAGE))
+                continue
+            plans.append((s, det))
+            if len(plans) >= 3:
+                break
+        results = []
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            for res in ex.map(lambda p: self._execute(round_t, p[0], p[1]),
+                              plans):
+                if res:
+                    results.append(res)
+        for trade in results:
+            self.state["open_trades"][trade["oid"]] = trade
+        if results:
+            self._save()
+        return results
+
+    def _execute(self, round_t, s, det):
+        from mexc_client import mexc_symbol
+        sym = s["symbol"]
+        side = 1 if s["dir"] == "UP" else 3
+        price_scale = int(det.get("priceScale", 0) or 0)
+        size = float(det.get("contractSize", 0) or 0)
+        ref = round(float(s["close"]), price_scale)
+        margin_target = config.MARGIN_PCT * self.capital
+        vol = calc_vol(det, margin_target * config.LEVERAGE, ref)
+        oid = None
+        for attempt in range(1, config.LIMIT_MAX_ATTEMPTS + 1):
+            if (time.time() * 1000 - round_t) / 1000 > config.FRESH_SECONDS:
+                self.log("live %s: stale, stop retry" % sym)
+                return None
+            tk = get_ticker(sym)
+            tkd = (tk.get("data") or {}) if tk.get("success") else {}
+            last = tkd.get("lastPrice") or ref
+            px_raw = tkd.get("ask1") if side == 1 else tkd.get("bid1")
+            try:
+                px = round(float(px_raw or last), price_scale)
+            except Exception:
+                px = ref
+            tp, sl = risk.build_tp_sl(side, px, price_scale)
+            # 硬规则 R1 / R2（下单前，市价取本 tick 中间价近似）
+            try:
+                _bid = float(tkd.get("bid1") or px)
+                _ask = float(tkd.get("ask1") or px)
+                mid = (_bid + _ask) / 2
+                risk.check_tp_sl_ratio(side, mid, tp, sl)
+                risk.check_liq_buffer(side, px, sl)
+            except risk.RiskRejected as e:
+                self.log("live skip %s: %s" % (sym, e))
+                return None
+            # 硬规则 R4：摩擦过滤（每次提交前）
+            spread = risk.spread_pct_of(tkd.get("bid1"), tkd.get("ask1"))
+            fric, net_tp, net_sl, net_rr, ok = risk.friction_check(spread)
+            if not ok:
+                self.log("live skip %s (friction): spread=%s friction=%.4f%% "
+                         "net_tp=%.4f%% net_sl=%.4f%% net_rr=%.2f < %.1f"
+                         % (sym,
+                            ("%.4f%%" % (spread * 100)) if spread is not None
+                            else "unknown",
+                            fric * 100, net_tp * 100, net_sl * 100, net_rr,
+                            config.MIN_NET_RR))
+                return None
+            ext = "%d-%s-a%d" % (round_t // 1000, sym, attempt)
+            oid = ext if len(ext) <= 32 else ext[:10] + ext[-22:]
+            r = submit_limit(self.ak, self.sk, sym, side, vol, px,
+                             config.LEVERAGE,
+                             open_type=OPEN_TYPE,
+                             stop_loss=sl, take_profit=tp, external_oid=oid)
+            if not r.get("success"):
+                self.log("live submit %s failed: %s %s"
+                         % (sym, r.get("code"), r.get("message")))
+                return None
+            data = r.get("data")
+            order_id = data.get("orderId") if isinstance(data, dict) else data
+            time.sleep(config.LIMIT_WAIT_SECONDS)
+            pp = open_positions(self.ak, self.sk, sym)
+            pos = None
+            if pp.get("success"):
+                for p in pp.get("data") or []:
+                    if p.get("symbol") == mexc_symbol(sym):
+                        pos = p
+                        break
+            if pos is not None:
+                entry = float(pos.get("openAvgPrice") or px)
+                trade = {"oid": oid, "symbol": sym,
+                         "mexc_symbol": mexc_symbol(sym), "side": side,
+                         "dir": s["dir"], "prob": s["prob"], "vol": vol,
+                         "margin": float(pos.get("im") or
+                                         vol * size * entry / config.LEVERAGE),
+                         "tp": tp, "sl": sl, "entry": entry,
+                         "order_id": order_id, "opened_at": time.time(),
+                         "round_t": round_t, "status": "open"}
+                # 成交后用真实爆仓价复核 R2（旧 daemon 只警告，本项目沿用警告+Bark）
+                liq = None
+                for k in ("liquidatePrice", "liquidationPrice", "liqPrice",
+                          "estLiquidatePrice"):
+                    if pos.get(k) is not None:
+                        try:
+                            liq = float(pos.get(k))
+                            break
+                        except (TypeError, ValueError):
+                            pass
+                if liq:
+                    buf = risk.liq_buffer_pct(side, entry, sl, liq)
+                    trade["liq_price"] = liq
+                    trade["liq_buffer_pct"] = buf
+                    if buf < config.MIN_LIQ_BUFFER_PCT:
+                        self.log("live WARN %s: 止损离爆仓线仅 %.2f%% (<%.2f%%)"
+                                 % (sym, buf * 100,
+                                    config.MIN_LIQ_BUFFER_PCT * 100))
+                        if self.bark_fn:
+                            self.bark_fn("止损离爆仓线太近",
+                                         "%s 止损 %s 离爆仓价 %s 仅 %.2f%%"
+                                         % (sym, sl, liq, buf * 100))
+                self.log("live OPEN %s order=%s entry=%s vol=%s tp=%s sl=%s"
+                         % (sym, order_id, entry, vol, tp, sl))
+                if self.bark_fn:
+                    self.bark_fn("实盘开仓 · %s %s" % (sym, s["dir"]),
+                                 "入场 %s · TP %s / SL %s" % (entry, tp, sl))
+                return trade
+            try:
+                cancel_order(self.ak, self.sk, order_id)
+            except Exception as e:  # noqa: BLE001
+                self.log("live cancel %s failed: %s" % (sym, e))
+            self.log("live cancel %s attempt %d (not filled at %s), retry"
+                     % (sym, attempt, px))
+        self.log("live submit %s: %d 次限价均未成交，放弃本轮"
+                 % (sym, config.LIMIT_MAX_ATTEMPTS))
+        return None

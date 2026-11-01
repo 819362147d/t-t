@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+"""cloud-trader 入口：BTC/ETH 事件合约打法 × MEXC 合约纸面/实盘系统。
+
+用法：
+  纸面单轮：  python main.py --paper --once
+  纸面常驻：  python main.py --paper --loop
+  实盘（默认禁用，三重门）：环境变量 MEXC_ACCESS_KEY / MEXC_SECRET_KEY
+             + --live --i-understand-live-risk 全部齐备才允许启动。
+
+每轮流程（与旧实盘 run_once 同构）：
+  拉 K 线（MEXC Min1/Min5，含跨标的参考）-> 31 特征 + GBM 概率
+  -> 方向阈值 0.55/0.45 -> 每个信号标的逐单过硬规则（R1 比值 / R2 爆仓缓冲
+  / R4 摩擦 / R5 日损 / R6 新鲜度）-> 纸面吃盘口成交或实盘限价提交
+  -> 未平仓的 TP/SL 每 10 秒用最新盘口管理（纸面；实盘由交易所触发）。
+"""
+import argparse
+import math
+import os
+import sys
+import time
+
+import config
+import data as data_mod
+import risk
+import signals as sig_mod
+from bark import bark as bark_push
+
+
+def log(msg):
+    line = "%s %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), msg)
+    print(line, flush=True)
+    try:
+        os.makedirs(config.RUNTIME_DIR, exist_ok=True)
+        with open(config.LOG_FILE, "a") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass
+
+
+def _bark(title, body):
+    return bark_push(title, body, log_fn=log)
+
+
+def compute_signals(model, data_map, ref5m):
+    """对每个标的算一轮信号：[{symbol, dir, prob, close}, ...] + round_t。
+    旧实盘口径：轮次时间取各标的最后一个已收盘 5m bar 的最大值。"""
+    out = []
+    round_t = 0
+    for sym in config.SYMBOLS:
+        if sym not in data_map:
+            continue
+        k1m, k5m = data_map[sym]
+        ref = ref5m.get(config.CROSS_REF[sym])
+        if not ref:
+            log("%s: 跨标的参考 %s 缺失，跳过" % (sym, config.CROSS_REF[sym]))
+            continue
+        t_ms, close, feats = sig_mod.compute_features(k1m, k5m, ref)
+        if t_ms is None:
+            log("%s: 特征不足，本轮跳过" % sym)
+            continue
+        round_t = max(round_t, t_ms)
+        prob, lo, sh = sig_mod.predict(model, feats)
+        direc = sig_mod.direction_of(prob, lo, sh)
+        log("%s round=%d close=%s prob=%.4f thr=[%.2f,%.2f] -> %s"
+            % (sym, t_ms, close, prob, sh, lo, direc or "无信号"))
+        if direc:
+            mom10 = feats.get("mom_10m")
+            out.append({"symbol": sym, "dir": direc, "prob": round(prob, 4),
+                        "close": close, "round_t": t_ms,
+                        "mom_10m": (float(mom10)
+                                    if isinstance(mom10, (int, float))
+                                    and math.isfinite(mom10) else None)})
+    return out, round_t
+
+
+def paper_cycle(account, model, manage_only=False):
+    data_map, ref5m, errors = {}, {}, []
+    if not manage_only:
+        data_map, ref5m, errors = data_mod.load_all_data()
+        for e in errors:
+            log("data: %s" % e)
+    tickers = {}
+    for sym in config.SYMBOLS:
+        try:
+            tickers[sym] = data_mod.fetch_ticker(sym)
+        except Exception as e:  # noqa: BLE001
+            log("ticker %s failed: %s" % (sym, e))
+    if tickers:
+        closed = account.manage_exits(tickers)
+        if closed:
+            log("paper: 本轮平仓 %d 笔" % len(closed))
+    if manage_only:
+        return
+    signals, round_t = compute_signals(model, data_map, ref5m)
+    if not round_t:
+        log("paper: 本轮无有效轮次（数据/特征不足）")
+        return
+    if not risk.signal_is_fresh(round_t, int(time.time() * 1000)):
+        log("paper: 轮次 %d 已过期 (>%ds)，不开仓" % (round_t, config.FRESH_SECONDS))
+        return
+    if account.has_round(round_t):
+        log("paper: 轮次 %d 已处理过，跳过开仓" % round_t)
+        return
+    held = {t["symbol"] for t in account.state["open_trades"].values()}
+    for s in signals:
+        sym = s["symbol"]
+        if sym in held:
+            log("paper skip %s: 已有持仓" % sym)
+            continue
+        if sym not in tickers:
+            log("paper skip %s: 无 ticker" % sym)
+            continue
+        try:
+            detail = data_mod.contract_detail(sym)
+        except Exception as e:  # noqa: BLE001
+            log("paper skip %s: 合约详情失败 %s" % (sym, e))
+            continue
+        if config.LEVERAGE > int(detail.get("maxLeverage", 0) or 0):
+            log("paper skip %s: maxLeverage %s < %d"
+                % (sym, detail.get("maxLeverage"), config.LEVERAGE))
+            continue
+        res = account.try_open(sym, s["dir"], s["prob"], tickers[sym],
+                               detail, round_t)
+        log("paper result %s: %s" % (sym, res.get("status")))
+    account.round_done(round_t)
+    marks = {s: (t["bid"] + t["ask"]) / 2 for s, t in tickers.items()
+             if t.get("bid") and t.get("ask")}
+    st = account.state
+    log("paper state: equity=%.4f realized_net=%.4f day_realized=%.4f "
+        "open=%d closed=%d"
+        % (account.equity_now(marks), st["realized_net_total"],
+           st["day_realized"], len(st["open_trades"]),
+           len(st["closed_trades"])))
+
+
+def run_paper(once, loop, start_equity):
+    from paper_engine import PaperAccount
+    account = PaperAccount(log_fn=log, bark_fn=_bark,
+                           start_equity=start_equity)
+    model, err = sig_mod.load_model()
+    if err:
+        log(err)
+        return 1
+    if once:
+        paper_cycle(account, model)
+        return 0
+    if loop:
+        log("paper loop started (rounds at 5m boundaries, exit checks every %ds)"
+            % config.LOOP_SECONDS)
+        last_round = 0
+        while True:
+            try:
+                nxt = (int(time.time()) // 300 + 1) * 300 + 5
+                if time.time() >= nxt - config.LOOP_SECONDS and nxt != last_round:
+                    last_round = nxt
+                    paper_cycle(account, model)
+                else:
+                    paper_cycle(account, model, manage_only=True)
+            except Exception as e:  # noqa: BLE001
+                log("paper loop error: %s" % e)
+            time.sleep(config.LOOP_SECONDS)
+    log("paper: 需要 --once 或 --loop")
+    return 2
+
+
+def run_live():
+    ak = os.environ.get("MEXC_ACCESS_KEY", "").strip()
+    sk = os.environ.get("MEXC_SECRET_KEY", "").strip()
+    from live_engine import LiveTrader
+    trader = LiveTrader(ak, sk, log_fn=log, bark_fn=_bark)
+    model, err = sig_mod.load_model()
+    if err:
+        log(err)
+        return 1
+    trader.sync_capital()
+    log("live loop started")
+    last_round = 0
+    while True:
+        try:
+            nxt = (int(time.time()) // 300 + 1) * 300 + 5
+            if time.time() >= nxt - config.LOOP_SECONDS and nxt != last_round:
+                last_round = nxt
+                data_map, ref5m, errors = data_mod.load_all_data()
+                for e in errors:
+                    log("data: %s" % e)
+                signals, round_t = compute_signals(model, data_map, ref5m)
+                if round_t and risk.signal_is_fresh(
+                        round_t, int(time.time() * 1000)):
+                    trader.sync_capital()
+                    details = {}
+                    for sym in {s["symbol"] for s in signals}:
+                        try:
+                            details[sym] = data_mod.contract_detail(sym)
+                        except Exception as e:  # noqa: BLE001
+                            log("live: 合约详情 %s 失败 %s" % (sym, e))
+                    trader.maybe_open(round_t, signals, details)
+        except Exception as e:  # noqa: BLE001
+            log("live loop error: %s" % e)
+        time.sleep(config.LOOP_SECONDS)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="cloud-trader")
+    ap.add_argument("--paper", action="store_true", help="纸面模式（默认）")
+    ap.add_argument("--once", action="store_true", help="只跑一轮")
+    ap.add_argument("--loop", action="store_true", help="常驻循环")
+    ap.add_argument("--paper-equity", type=float, default=None,
+                    help="纸面初始权益（USDT），默认 100，仅首次建账时生效")
+    ap.add_argument("--live", action="store_true", help="实盘模式（需三重门）")
+    ap.add_argument("--i-understand-live-risk", action="store_true",
+                    help="实盘风险确认（与 --live 和环境变量密钥缺一不可）")
+    args = ap.parse_args()
+
+    if args.live:
+        ak = os.environ.get("MEXC_ACCESS_KEY", "").strip()
+        sk = os.environ.get("MEXC_SECRET_KEY", "").strip()
+        if not (ak and sk):
+            print("LIVE REFUSED: MEXC_ACCESS_KEY / MEXC_SECRET_KEY "
+                  "环境变量缺失", file=sys.stderr)
+            return 3
+        if not args.i_understand_live_risk:
+            print("LIVE REFUSED: 缺少 --i-understand-live-risk 确认标志",
+                  file=sys.stderr)
+            return 3
+        log("LIVE MODE: 三重门已通过（环境变量密钥 + --live + 风险确认）")
+        return run_live()
+
+    # 默认纸面
+    return run_paper(once=args.once, loop=args.loop,
+                     start_equity=args.paper_equity)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
